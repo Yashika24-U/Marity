@@ -1168,12 +1168,13 @@
       .hero-banner {
         position: relative;
         width: 90%;
-        max-width: 1200px;
+        max-width: 1800px;
         height: 500px;
-        margin: 50px auto;
+        margin: 140px auto;
         border-radius: 30px;
         overflow: hidden;
-        background: url("../laboratory-home/contact-us.jpg") no-repeat center center/cover;
+        background: url("../laboratory-home/c.jpg") no-repeat center
+          center/cover;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1204,167 +1205,516 @@
         margin: 0 auto;
       }
 
+      .submit-btn {
+        padding: 16px 40px;
+        background: linear-gradient(to right, #0099ff, #0066cc);
+        color: #fff;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        align-self: flex-start;
+        font-size: 16px;
+        font-weight: 600;
+        transition: transform 0.2s;
+        margin-top: 10px;
+        width: 100% !important;
+      }
+
       .elementor-5898
-  .elementor-element.elementor-element-de96ea6
-  > .elementor-motion-effects-container
-  > .elementor-motion-effects-layer {
-  /* background-image: url("https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-bg-img.png"); */
-  background-position: top right;
-  background-repeat: no-repeat;
-  background-size: auto;
-}
+        .elementor-element.elementor-element-de96ea6
+        > .elementor-motion-effects-container
+        > .elementor-motion-effects-layer {
+        /* background-image: url("https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-bg-img.png"); */
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: auto;
+      }
 
+      #page-header {
+        width: 100%;
+        background: #fff;
+        border-bottom: 1px solid #ddd;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+      }
 
-#page-header {
-  width: 100%;
-  background: #fff;
-  border-bottom: 1px solid #ddd;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 999;
-}
+      .contact-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1.3fr;
+        gap: 80px;
+        align-items: center;
+      }
 
-.header-inner {
-  max-width: 1200px;
-  line-height: 1rem;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px 20px;
-  font-size:18px;
-  
-}
+      .left-side {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+      }
 
-.logo img {
-  height: 60px;
-}
+      .info-card {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        padding: 32px;
+        background: #d6d9d2;
+        border-radius: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
 
-/* Desktop Nav */
-.desktop-nav ul {
-  display: flex;
-  gap: 40px;
-  list-style: none;
-}
+      .info-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      }
 
-.desktop-nav a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  transition: color 0.3s;
-}
+      .icon-circle {
+        width: 60px;
+        height: 60px;
+        background: #9ca895;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        font-size: 28px;
+      }
 
-.desktop-nav a:hover {
-  color: #8fbdee;
-}
+      .info-text h3 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #646464;
+        margin-bottom: 6px;
+      }
 
-/* Mobile Menu Toggle */
-.mobile-menu-toggle {
-  display: none;
-  flex-direction: column;
-  gap: 5px;
-  cursor: pointer;
-}
+      .info-text p {
+        font-size: 18px;
+        color: #555;
+        font-weight: 500;
+      }
 
-.mobile-menu-toggle span {
-  width: 25px;
-  height: 3px;
-  background: #333;
-  border-radius: 2px;
-}
+      .social-section {
+        margin-top: 20px;
+      }
 
-/* Mobile Menu */
-.mobile-nav {
-  display: none;
-  background: #fff;
-  width: 100%;
-  position: absolute;
-  top: 60px;
-  left: 0;
-  border-top: 1px solid #ddd;
-}
+      .social-section p {
+        font-size: 15px;
+        color: #646464;
+        font-weight: 600;
+        margin-bottom: 16px;
+      }
 
-.mobile-nav ul {
-  list-style: none;
-  padding: 10px 0;
-}
+      .social-links {
+        display: flex;
+        gap: 20px;
+      }
 
-.mobile-nav li {
-  border-bottom: 1px solid #eee;
-}
+      .social-links a {
+        width: 48px;
+        height: 48px;
+        background: #d6d9d2;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #555;
+        font-weight: 600;
+        font-size: 14px;
+        transition: all 0.3s ease;
+      }
 
-.mobile-nav a {
-  display: block;
-  padding: 10px 20px;
-  text-decoration: none;
-  color: #333;
-}
+      .social-links a:hover {
+        background: #c4c7be;
+        transform: scale(1.1);
+      }
 
-.mobile-nav a:hover {
-  background: #f1f1f1;
-}
+      .right-side {
+        background: #fff;
+        border-radius: 28px;
+        padding: 60px;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+      }
 
-/* Responsive */
-@media (min-width:1024px){
-  .desktop-nav ul {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-}
-}
+      .right-side h2 {
+        font-size: 42px;
+        font-weight: 700;
+        color: #0e202a;
+        margin-bottom: 20px;
+        line-height: 1.2;
+      }
 
-@media (min-width:1024px) and (max-width:1024px){
-  .desktop-nav {
-    display: none;
-  }
+      .right-side > p {
+        font-size: 17px;
+        color: #777;
+        line-height: 1.7;
+        margin-bottom: 40px;
+      }
 
-  .mobile-menu-toggle {
-    display: flex;
-  }
+      .form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+      }
 
-  .mobile-nav.show {
-    display: block;
-  }
-}
-@media (max-width: 992px) {
-  .desktop-nav {
-    display: none;
-  }
+      .form-group {
+        display: flex;
+        flex-direction: column;
+      }
 
-  .mobile-menu-toggle {
-    display: flex;
-  }
+      .form-group.full {
+        grid-column: 1 / -1;
+      }
 
-  .mobile-nav.show {
-    display: block;
-  }
-}
+      .form-group label {
+        font-size: 15px;
+        font-weight: 600;
+        color: #0e202a;
+        margin-bottom: 10px;
+      }
 
+      .form-group input,
+      .form-group textarea {
+        padding: 18px 22px;
+        border: none;
+        border-radius: 14px;
+        background-color: #d6d9d2;
+        font-size: 16px;
+        color: #555;
+        font-family: inherit;
+        transition: background-color 0.3s ease;
+      }
 
-ol:not(.wp-block), ul:not(.wp-block) {
-    margin: 0 0 0 !important;
-}
+      .form-group input:focus,
+      .form-group textarea:focus {
+        outline: none;
+        background-color: #c4c7be;
+      }
 
-ol, ul {
-    list-style-position: inside;
-  margin-bottom: 0em;
-    padding: 0;
-}
+      .form-group textarea {
+        resize: vertical;
+        min-height: 140px;
+      }
 
-@media (max-width: 1680px) {
-    .elementor-1036 .elementor-element.elementor-element-37c358a > .elementor-widget-container {
-        padding: 10% 0% 0% 0%;
-    }
-}
+      .form-group input::placeholder,
+      .form-group textarea::placeholder {
+        color: #999;
+      }
 
-.qodef-m-text
-{
-  font-size:18px;
-  font-weight:400;
-}
+      .submit-btn {
+        padding: 18px 50px;
+        background: #8db5ca;
+        color: #fff;
+        border: none;
+        border-radius: 12px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        margin-top: 16px;
+      }
+
+      .submit-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 25px rgba(0, 153, 255, 0.3);
+      }
+
+      @media (max-width: 1024px) {
+        .contact-container {
+          grid-template-columns: 1fr;
+          gap: 50px;
+        }
+
+        .right-side {
+          padding: 40px;
+        }
+
+        .right-side h2 {
+          font-size: 32px;
+        }
+
+        .form-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      img {
+        height: 80px;
+      }
+
+      /* Navbar */
+      /* Remove bottom line / shadow from header */
+      #qodef-page-header {
+        border-bottom: none !important;
+        box-shadow: none !important;
+        background-color: #fff; /* optional, keep header clean */
+      }
+
+      /* Remove any line from nav itself */
+      .qodef-header-navigation {
+        border-bottom: none !important;
+        box-shadow: none !important;
+      }
+
+      /* Make menu items neat and spaced */
+      .qodef-header-navigation .menu {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      /* Menu links styling */
+      .qodef-header-navigation .menu a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+        padding: 10px 0;
+        transition: color 0.3s ease;
+      }
+
+      .qodef-header-navigation .menu a:hover {
+        color: #c4825e; /* highlight color on hover */
+      }
+
+      /* Responsive: mobile toggle */
+      @media (max-width: 1024px) {
+        .qodef-header-navigation .menu {
+          gap: 15px;
+        }
+        .qodef-header-navigation .menu a {
+          font-size: 14px;
+        }
+      }
+
+      /* Optional: keep header always above content */
+      #qodef-page-header {
+        position: relative; /* change to fixed if you want sticky header */
+        z-index: 999;
+      }
+
+      /* Header */
+      /* Base styles */
+      #qodef-page-header {
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+      }
+      /* 
+      .qodef-header-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 10px 20px;
+      } */
+
+      .qodef-header-inner {
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        max-width: 1200px;
+        padding: 10px 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+        gap: 80px;
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 30px;
+      }
+
+      .qodef-desktop-nav ul {
+        display: flex;
+        gap: 25px;
+        list-style: none;
+      }
+
+      .qodef-desktop-nav a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+      }
+
+      .qodef-mobile-toggle {
+        display: none;
+        font-size: 28px;
+        cursor: pointer;
+      }
+
+      .qodef-mobile-header-navigation {
+        display: none;
+        background: #fff;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .qodef-mobile-header-navigation ul {
+        list-style: none;
+        padding: 10px 0;
+      }
+
+      .qodef-mobile-header-navigation li {
+        padding: 12px 20px;
+        border-bottom: 1px solid #eee;
+      }
+
+      .qodef-mobile-header-navigation a {
+        text-decoration: none;
+        color: #333;
+        display: block;
+      }
+
+      /* Responsive behavior */
+      @media (max-width: 1024px) {
+        .qodef-desktop-nav {
+          display: none;
+        }
+
+        .qodef-mobile-toggle {
+          display: block;
+        }
+
+        .qodef-mobile-header-navigation.active {
+          display: block;
+        }
+      }
     </style>
   </head>
+
+  <header id="qodef-page-header" class="qodef-glossy--no" role="banner">
+    <div id="qodef-page-header-inner" class="qodef-content-grid">
+      <div class="qodef-header-wrapper">
+        <div class="qodef-header-logo">
+          <a
+            itemprop="url"
+            class="qodef-header-logo-link qodef-height--set qodef-source--image"
+            href="../index.html"
+            rel="home"
+          >
+            <img
+              loading="lazy"
+              width="300"
+              height="40"
+              src="./logo.svg"
+              class="qodef-header-logo-image qodef--main"
+              alt="logo main"
+              itemprop="image"
+            />
+            <img
+              loading="lazy"
+              width="300"
+              height="40"
+              src="../wp-content/uploads/2022/10/logo-dark.png"
+              class="qodef-header-logo-image qodef--dark"
+              alt="logo dark"
+              itemprop="image"
+            /><img
+              loading="lazy"
+              width="298"
+              height="40"
+              src="../wp-content/uploads/2022/11/logo-light.png"
+              class="qodef-header-logo-image qodef--light"
+              alt="logo light"
+              itemprop="image"
+            />
+          </a>
+        </div>
+        <nav
+          class="qodef-header-navigation"
+          role="navigation"
+          aria-label="Top Menu"
+        >
+          <ul id="menu-main-menu-1" class="menu">
+            <li
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80"
+            >
+              <svg
+                class="qodef-svg--menu-star qodef-menu-item-star"
+                xmlns="http://www.w3.org/2000/svg"
+                width="7.5361"
+                height="7.936"
+                viewBox="0 0 7.5361 7.936"
+              >
+                <path
+                  d="M4.3359 0 4.064 2.9917 2.72 3.76 0 2.4961l.72-1.2324 1.84 1.3442.5918-.3359L2.896.0156ZM0 5.44l2.72-1.2642 1.3442.7681.272 2.9922L2.896 7.92l.2559-2.2559-.5919-.3365L.72 6.6719Zm6.8159 1.0239L4.3682 4.7358V3.2L6.816 1.472l.72 1.248-2.096.9118v.6719l2.0962.9121Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <a href="../index.html">
+                <span class="qodef-menu-item-text"><span>Home</span></span>
+              </a>
+            </li>
+            <li
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81"
+            >
+              <a href="../about-us.html">
+                <span class="qodef-menu-item-text"><span>About Us</span></span>
+              </a>
+            </li>
+            <li
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3508"
+            >
+              <a href="../advisory-board.html">
+                <span class="qodef-menu-item-text"
+                  ><span>Advisory Board</span></span
+                >
+              </a>
+            </li>
+            <li
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4061"
+            >
+              <a href="../services.html">
+                <span class="qodef-menu-item-text"><span>Services</span></span>
+              </a>
+            </li>
+            <li
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82"
+            >
+              <a href="../fund-me.html">
+                <span class="qodef-menu-item-text"><span>Fund Me</span></span>
+              </a>
+            </li>
+            <li
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83"
+            >
+              <a href="../volunteers.html">
+                <span class="qodef-menu-item-text"
+                  ><span>Volunteers</span></span
+                >
+              </a>
+            </li>
+            <li
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84"
+            >
+              <a href="../blog.html">
+                <span class="qodef-menu-item-text"><span>Blog</span></span>
+              </a>
+            </li>
+            <li
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85"
+            >
+              <a href="../contact-us.html">
+                <span class="qodef-menu-item-text"
+                  ><span>Contact Us</span></span
+                >
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
   <body
     class="wp-singular page-template page-template-page-full-width page-template-page-full-width-php page page-id-5898 wp-theme-marity theme-marity qode-framework-1.2.4 woocommerce-no-js qodef-qi--no-touch qi-addons-for-elementor-1.8.9 qodef-back-to-top--enabled qodef-header--standard qodef-mobile-header--standard qodef-drop-down-second--full-width qodef-drop-down-second--default qodef-sidebar-border-right marity-core-1.1 marity-1.1 qodef-content-grid-1400 qode-export-1.0 qodef-header-standard--right qodef-search--standard elementor-default elementor-kit-4 elementor-page elementor-page-5898"
     itemscope
@@ -1387,334 +1737,134 @@ ol, ul {
       >Skip to the content</a
     >
     <div id="qodef-page-wrapper" class="">
-       <header id="page-header">
-        <div class="header-inner">
-          <div class="logo">
-            <a href="#home">
-              <img src="./logo.svg" alt="Logo" />
-            </a>
+      <!-- Updated Header -->
+
+      <header id="qodef-page-header">
+        <div class="qodef-header-inner">
+          <div class="qodef-logo">
+            <a href="../index.html"><img src="./logo.svg" alt="Logo" /></a>
           </div>
 
           <!-- Desktop Menu -->
-          <nav class="desktop-nav">
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about-us">About Us</a></li>
-              <li><a href="#advisory-board">Advisory Board</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#fund-me">Fund Me</a></li>
-              <li><a href="#volunteers">Volunteers</a></li>
-              <li><a href="#blogs">Blog</a></li>
-              <li><a href="#contact-us">Contact Us</a></li>
+          <nav class="qodef-desktop-nav">
+            <ul class="qodef-menu">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../about-us.html">About Us</a></li>
+              <li><a href="../advisory-board.html">Advisory Board</a></li>
+              <li><a href="../services.html">Services</a></li>
+              <li><a href="../fund-me.html">Fund Me</a></li>
+              <li><a href="../volunteers.html">Volunteers</a></li>
+              <li><a href="../blog.html">Blog</a></li>
+              <li><a href="../contact-us.html">Contact Us</a></li>
             </ul>
           </nav>
 
-          <!-- Hamburger for Mobile -->
-          <div class="mobile-menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
+          <!-- Mobile Toggle -->
+          <div class="qodef-mobile-toggle" onclick="toggleMobileMenu()">☰</div>
+
+          <!-- Mobile Menu -->
+          <nav class="qodef-mobile-header-navigation" id="mobileMenu">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../about-us.html">About Us</a></li>
+              <li><a href="../advisory-board.html">Advisory Board</a></li>
+              <li><a href="../services.html">Services</a></li>
+              <li><a href="../fund-me.html">Fund Me</a></li>
+              <li><a href="../volunteers.html">Volunteers</a></li>
+              <li><a href="../blog.html">Blog</a></li>
+              <li><a href="../contact-us.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Hero Banner -->
+      <section class="hero-banner">
+        <div class="hero-content">
+          <!-- <h1>About Us</h1>
+                              <p>We are passionate about building sustainable futures.</p> -->
+        </div>
+      </section>
+      <!-- Contact Us -->
+      <div class="contact-container">
+        <!-- LEFT SIDE -->
+        <div class="left-side">
+          <div class="info-card">
+            <div class="icon-circle">📞</div>
+            <div class="info-text">
+              <h3>Contact Number</h3>
+              <p>+1 (612) 964-1039</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="icon-circle">📍</div>
+            <div class="info-text">
+              <h3>Location</h3>
+              <p>Jacksonville, FL 32224</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="icon-circle">✉️</div>
+            <div class="info-text">
+              <h3>Email Address</h3>
+              <p>oceandeeptechnologies@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="social-section">
+            <p>Follow Us</p>
+            <div class="social-links">
+              <a href="#" title="Instagram">📷</a>
+              <a href="#" title="LinkedIn">in</a>
+              <a href="#" title="Twitter">𝕏</a>
+            </div>
           </div>
         </div>
 
-        <!-- Mobile Menu -->
-        <nav class="mobile-nav">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about-us">About Us</a></li>
-            <li><a href="#advisory-board">Advisory Board</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#fund-me">Fund Me</a></li>
-            <li><a href="#volunteers">Volunteers</a></li>
-            <li><a href="#blogs">Blog</a></li>
-            <li><a href="#contact-us">Contact Us</a></li>
-          </ul>
-        </nav>
-      </header>
+        <!-- RIGHT SIDE -->
+        <div class="right-side">
+          <h2>Get in touch with us!</h2>
+          <p>
+            Feel free to reach out if you have any questions or need more
+            information. We'd love to hear from you.
+          </p>
 
-               <!-- Hero Banner -->
-                           <section class="hero-banner">
-                            <div class="hero-content">
-                              <!-- <h1>About Us</h1>
-                              <p>We are passionate about building sustainable futures.</p> -->
-                            </div>
-                          </section>
-                <!-- Contact Us -->
-      <div id="qodef-page-outer">
-        <div id="qodef-page-inner" class="qodef-content-full-width">
-          <main
-            id="qodef-page-content"
-            class="qodef-grid qodef-layout--template"
-            role="main"
-          >
-            <div class="qodef-grid-inner">
-              <div
-                class="qodef-grid-item qodef-page-content-section qodef-col--12 qodef-col--content"
-              >
-                <div
-                  data-elementor-type="wp-page"
-                  data-elementor-id="5898"
-                  class="elementor elementor-5898"
-                >
+          <form>
+            <div class="form-grid">
+              <div class="form-group">
+                <label>First Name *</label>
+                <input type="text" placeholder="e.g. Oliver" required />
+              </div>
 
+              <div class="form-group">
+                <label>Last Name *</label>
+                <input type="text" placeholder="e.g. Spiteri" required />
+              </div>
 
-                >
-			
-                   
-                    <section class="elementor-section elementor-top-section elementor-element elementor-element-de96ea6 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                    data-id="de96ea6"
-                    data-element_type="section"
-                    data-settings='{"background_background":"classic"}' 
-                  >  
-                    <div class="elementor-container elementor-column-gap-no">
-                      <div
-                        class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-532102c"
-                        data-id="532102c"
-                        data-element_type="column"
-                      >
-                        <div
-                          class="elementor-widget-wrap elementor-element-populated"
-                        >
-                          <div
-                            class="elementor-element elementor-element-03f1b65 elementor-widget elementor-widget-marity_core_section_title"
-                            data-id="03f1b65"
-                            data-element_type="widget"
-                            data-widget_type="marity_core_section_title.default"
-                          >
-                            <div class="elementor-widget-container">
-                              <div
-                                class="qodef-shortcode qodef-m qodef-section-title qodef-show_supertitle--no qodef-alignment--left"
-                              >
-                                <h1 class="qodef-m-title" style="text-align: center;">Get In Touch With Us</h1><br>
-                                
-                              </div>
-                            </div>
-                          </div>
-                          
+              <div class="form-group">
+                <label>Email Address *</label>
+                <input type="email" placeholder="example@gmail.com" required />
+              </div>
 
-                          <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-cc75284 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                            data-id="cc75284"
-                            data-element_type="section"
-                          >
-                            <div
-                              class="elementor-container elementor-column-gap-no"
-                            >
-                              <div
-                                class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-75b9cac"
-                                data-id="75b9cac"
-                                data-element_type="column"
-                              >
-                                <div
-                                  class="elementor-widget-wrap elementor-element-populated"
-                                >
-                                  <div
-                                    class="elementor-element elementor-element-8a8900a elementor-widget elementor-widget-text-editor"
-                                    data-id="8a8900a"
-                                    data-element_type="widget"
-                                    data-widget_type="text-editor.default"
-                                  >
-                                   
-                                  </div>
-                                </div>
-                              </div>
-							  
-                              <div
-                                class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a399acf"
-                                data-id="a399acf"
-                                data-element_type="column"
-                              >
-							
-														  
-                                <div
-                                  class="elementor-widget-wrap elementor-element-populated"
-                                >
-								 	
-                                  <div
-                                    class="elementor-element elementor-element-742df08 elementor-widget elementor-widget-wp-widget-marity_core_contact_form_7"
-                                    data-id="742df08"
-                                    data-element_type="widget"
-                                    data-widget_type="wp-widget-marity_core_contact_form_7.default"
-                                  >
-                                    <div class="elementor-widget-container">
-                                      <div class="qodef-contact-form-7">
-                                        <div
-                                          class="wpcf7 no-js"
-                                          id="wpcf7-f2140-p5898-o1"
-                                          lang="en-US"
-                                          dir="ltr"
-                                          data-wpcf7-id="2140"
-                                        >
-                                          <div class="screen-reader-response">
-                                            <p
-                                              role="status"
-                                              aria-live="polite"
-                                              aria-atomic="true"
-                                            ></p>
-                                            <ul></ul>
-                                          </div>
-                                          <form
-                                            action="/get-in-touch/#wpcf7-f2140-p5898-o1"
-                                            method="post"
-                                            class="wpcf7-form init demo"
-                                            aria-label="Contact form"
-                                            novalidate="novalidate"
-                                            data-status="init"
-                                          >
-                                            <div style="display: none">
-                                              <input
-                                                type="hidden"
-                                                name="_wpcf7"
-                                                value="2140"
-                                              />
-                                              <input
-                                                type="hidden"
-                                                name="_wpcf7_version"
-                                                value="6.0.1"
-                                              />
-                                              <input
-                                                type="hidden"
-                                                name="_wpcf7_locale"
-                                                value="en_US"
-                                              />
-                                              <input
-                                                type="hidden"
-                                                name="_wpcf7_unit_tag"
-                                                value="wpcf7-f2140-p5898-o1"
-                                              />
-                                              <input
-                                                type="hidden"
-                                                name="_wpcf7_container_post"
-                                                value="5898"
-                                              />
-                                              <input
-                                                type="hidden"
-                                                name="_wpcf7_posted_data_hash"
-                                                value=""
-                                              />
-                                            </div>
-                                            <div
-                                              class="qodef-classic-contact-form qodef-form-50-50"
-                                            >
-                                              <div class="qodef-contact-data">
-                                                <div class="qodef-name">
-                                                  <span
-                                                    class="wpcf7-form-control-wrap"
-                                                    data-name="your-name"
-                                                    ><input
-                                                      size="40"
-                                                      maxlength="400"
-                                                      class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                      aria-required="true"
-                                                      aria-invalid="false"
-                                                      placeholder="Name"
-                                                      value=""
-                                                      type="text"
-                                                      name="your-name"
-                                                  /></span>
-                                                </div>
-                                                <div class="qodef-name">
-                                                  <span
-                                                    class="wpcf7-form-control-wrap"
-                                                    data-name="your-name"
-                                                    ><input
-                                                      size="40"
-                                                      maxlength="400"
-                                                      class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                      aria-required="true"
-                                                      aria-invalid="false"
-                                                      placeholder="Last Name"
-                                                      value=""
-                                                      type="text"
-                                                      name="your-name"
-                                                  /></span>
-                                                </div>
-                                               </div>
+              <div class="form-group">
+                <label>Contact Number *</label>
+                <input type="tel" placeholder="(123) 678 – 8960" required />
+              </div>
 
-                                                <div class="qodef-name">
-                                                  <span
-                                                    class="wpcf7-form-control-wrap"
-                                                    data-name="your-name"
-                                                    ><input
-                                                      size="40"
-                                                      maxlength="400"
-                                                      class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                      aria-required="true"
-                                                      aria-invalid="false"
-                                                      placeholder="Email"
-                                                      value=""
-                                                      type="text"
-                                                      name="your-name"
-                                                  /></span>
-                                                </div>
+              <div class="form-group full">
+                <label>Comment</label>
+                <textarea placeholder="Write your comment here..."></textarea>
+              </div>
 
-                                              <span
-                                                class="wpcf7-form-control-wrap"
-                                                data-name="your-message"
-                                              >
-                                                <textarea
-                                                  cols="40"
-                                                  rows="4"
-                                                  maxlength="2000"
-                                                  class="wpcf7-form-control wpcf7-textarea"
-                                                  aria-invalid="false"
-                                                  placeholder="Message"
-                                                  name="your-message"
-                                                ></textarea>
-                                              </span>
+              <button type="submit" class="submit-btn">Submit Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
 
-                                              <button
-                                                class="wpcf7-form-control wpcf7-submit qodef-button qodef-size--normal qodef-layout--outlined qodef-m"
-                                                type="submit"
-                                              >
-                                                <span class="qodef-m-text"
-                                                  >Submit</span
-                                                >
-                                              </button>
-                                            </div>
-                                            <div
-                                              class="wpcf7-response-output"
-                                              aria-hidden="true"
-                                            ></div>
-                                          </form>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </section>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-
-                  	<section class="elementor-section elementor-top-section elementor-element elementor-element-4a56c90 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="4a56c90" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-1d8626b" data-id="1d8626b" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-6656a38 elementor-widget elementor-widget-marity_core_info_location" data-id="6656a38" data-element_type="widget" data-widget_type="marity_core_info_location.default">
-				<div class="elementor-widget-container">
-					<div class="qodef-shortcode qodef-m  qodef-info-location qodef-layout--background-text qodef-disable-padding-box--no ">
-	<div class="qodef-m-info">
-			<h5 class="qodef-m-title" >
-		Sweden	</h5>
-			<a class="qodef-m-text" itemprop="url" href="https://www.google.com/maps/place/2Home+Hotel+Solna/@59.3634861,17.977086,17z/data=!3m1!4b1!4m8!3m7!1s0x465f9ddd5bbbc45d:0xce48731353d25952!5m2!4m1!1i2!8m2!3d59.3634834!4d17.9792747" target="_blank" >
-        Rasundavagen 175<br /> Solna, Greater Stockholm
-    </a>
-        <a itemprop="url" href="tel:012345678" class="qodef-m-location-link" target="_blank" >
-    01-234 56 78</a>
-
-	</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-                  <!-- <section
+      <!-- <section
                     class="elementor-section elementor-top-section elementor-element elementor-element-d5f9c6d elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                     data-id="d5f9c6d"
                     data-element_type="section"
@@ -2029,7 +2179,7 @@ ol, ul {
             </div>
           </main>
         </div> -->
-        <!-- close #qodef-page-inner div from header.php -->
+      <!-- close #qodef-page-inner div from header.php -->
       <!-- </div> -->
       <!-- close #qodef-page-outer div from header.php -->
       <footer id="qodef-page-footer" role="contentinfo">

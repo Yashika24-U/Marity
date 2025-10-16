@@ -1245,7 +1245,7 @@
 
 
     elementor-1036 .elementor-element.elementor-element-c7ea923:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-1036 .elementor-element.elementor-element-c7ea923 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-    background-image: url(../laboratory-home/contact-us.jpg) !important;
+    background-image: url(../laboratory-home/-us.jpg) !important;
     }
 
     /* .qodef-header-logo img {
@@ -1428,10 +1428,11 @@
 
 
 .elementor-1036 .elementor-element.elementor-element-c7ea923:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-1036 .elementor-element.elementor-element-c7ea923 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-    background-image: url('./contact-us.jpg') !important;
+    background-image: url('./mc.jpg') !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 50px;
 }
 
 #page-header {
@@ -1443,348 +1444,447 @@
   left: 0;
   z-index: 999;
 }
+#qodef-page-mobile-header-inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 7%;
+    border-bottom: none !important;
+}
 
-.header-inner {
-  max-width: 1200px;
-  line-height: 1rem;
-  margin: 0 auto;
+
+/* section.qodef-elementor-content-grid>.elementor-container, section.qodef-elementor-content-grid>.elementor-element {
+    /* width: 1100px; */
+    /* margin-left: 10% !important; */
+    /* margin-right: 10% !important; */
+/* }  */
+
+ section.qodef-elementor-content-grid>.elementor-container, section.qodef-elementor-content-grid>.elementor-element {
+    /* width: 1100px; */
+    /* margin-left: 10% !important; */
+    /* margin-right: 10% !important; */
+}
+
+#services.qodef-elementor-content-grid > .elementor-container,#services.qodef-elementor-content-grid > .elementor-element {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+        /* Font size */
+        .qodef-menu-item-text {
+        font-size: 20px;           
+        font-weight: 600;         
+        font-family: 'Poppins', sans-serif; 
+        color: #222;              
+        text-transform: capitalize; 
+        letter-spacing: 0.5px;     
+        transition: color 0.3s ease; 
+      }
+
+      .qodef-m-text {
+        font-size: 18px;             
+        font-weight: 400;             
+        color: #555;                 
+        line-height: 1.6;             
+        margin-top: 8px;              
+        letter-spacing: 0.3px;       
+        font-family: 'Poppins', sans-serif; 
+        text-align: justify;         
+        transition: color 0.3s ease;  
+        }
+
+
+        .qodef-m-content{
+        font-size: 18px;             
+        font-weight: 400;             
+        color: #555;                 
+        line-height: 1.6;             
+        margin-top: 8px;              
+        letter-spacing: 0.3px;       
+        font-family: 'Poppins', sans-serif; 
+        text-align: justify;         
+        transition: color 0.3s ease;
+
+        }
+
+
+
+      /*section.qodef-elementor-content-grid>.elementor-container, section.qodef-elementor-content-grid>.elementor-element {
+         width: 1100px; 
+      margin-left: 10% !important;
+      margin-right: 10% !important;
+      } */
+      
+
+      .container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px 20px;
-  font-size:18px;
-  
+  flex-wrap: wrap;
+  gap: 20px;
+
 }
 
-.logo img {
-  height: 60px;
+.card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  padding: 20px;
+  position: relative;
+  transition: transform 0.3s ease;
 }
 
-/* Desktop Nav */
-.desktop-nav ul {
-  display: flex;
-  gap: 40px;
-  list-style: none;
+.card:hover {
+  transform: translateY(-5px);
 }
 
-.desktop-nav a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  transition: color 0.3s;
-}
-
-.desktop-nav a:hover {
-  color: #8fbdee;
-}
-
-/* Mobile Menu Toggle */
-.mobile-menu-toggle {
-  display: none;
-  flex-direction: column;
-  gap: 5px;
-  cursor: pointer;
-}
-
-.mobile-menu-toggle span {
-  width: 25px;
-  height: 3px;
-  background: #333;
-  border-radius: 2px;
-}
-
-/* Mobile Menu */
-.mobile-nav {
-  display: none;
-  background: #fff;
+.card img {
   width: 100%;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.tag {
   position: absolute;
-  top: 60px;
-  left: 0;
-  border-top: 1px solid #ddd;
+  top: 20px;
+  left: 20px;
+  padding: 5px 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
 }
 
-.mobile-nav ul {
-  list-style: none;
-  padding: 10px 0;
+.education {
+  background-color: #c68eff;
 }
 
-.mobile-nav li {
-  border-bottom: 1px solid #eee;
+.foods {
+  background-color: #ffa726;
 }
 
-.mobile-nav a {
+.medical {
+  background-color: #66bb6a;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.progress-bar {
+  background-color: #e0e0e0;
+  height: 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 4px;
+}
+
+.percentage {
+  font-weight: bold;
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+/* Fund Me */
+.donation-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  /* justify-content: center; */
+  padding: 40px 20px;
+}
+
+.donation-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  overflow: hidden;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.donation-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.12);
+}
+
+.card-image {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
   display: block;
-  padding: 10px 20px;
-  text-decoration: none;
+  object-fit: cover;
+}
+
+.tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+.tag.education { background-color: #f08a5d; }
+.tag.foods { background-color: #b83b5e; }
+.tag.medical { background-color: #6a2c70; }
+
+.card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-content h3 {
+  font-size: 18px;
   color: #333;
+  margin: 0 0 10px 0;
 }
 
-.mobile-nav a:hover {
-  background: #f1f1f1;
+.progress-bar {
+  background: #e0e0e0;
+  border-radius: 8px;
+  height: 10px;
+  overflow: hidden;
 }
 
-/* Responsive */
-@media (min-width:1024px){
-  .desktop-nav ul {
-    display: flex;
+.progress {
+  background: #0099ff;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.donate-btn {
+  margin-top: 10px;
+  padding: 10px 18px;
+  background: linear-gradient(90deg, #0099ff, #0066cc);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.donate-btn:hover {
+  background: linear-gradient(90deg, #0066cc, #004c99);
+}
+
+@media (max-width: 1024px) {
+  .donation-container {
+    justify-content: center;
     gap: 20px;
-    list-style: none;
-}
-}
-
-@media (min-width:1024px) and (max-width:1024px){
-  .desktop-nav {
-    display: none;
-  }
-
-  .mobile-menu-toggle {
-    display: flex;
-  }
-
-  .mobile-nav.show {
-    display: block;
   }
 }
-@media (max-width: 992px) {
-  .desktop-nav {
-    display: none;
-  }
-
-  .mobile-menu-toggle {
-    display: flex;
-  }
-
-  .mobile-nav.show {
-    display: block;
-  }
+  .container {
+  max-width: 1610px;  
+  margin: 0 auto;     
+  padding: 0 15px;    
+  box-sizing: border-box;
 }
 
 
-ol:not(.wp-block), ul:not(.wp-block) {
-    margin: 0 0 0 !important;
-}
+ .donation-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+   width:400px;
+    box-shadow: 0 4px 15px rgba(14, 32, 42, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 4px solid #0E202A;
+  }
 
-ol, ul {
-    list-style-position: inside;
-  margin-bottom: 0em;
-    padding: 0;
-}
+  .donation-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(14, 32, 42, 0.15);
+  }
 
-@media (max-width: 1680px) {
-    .elementor-1036 .elementor-element.elementor-element-37c358a > .elementor-widget-container {
-        padding: 10% 0% 0% 0%;
+  .card-image {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    background: #f0f0f0;
+  }
+
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .donation-card:hover .card-image img {
+    transform: scale(1.05);
+  }
+
+  .tag {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 6px 14px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .tag.education {
+    background: #0E202A;
+    color: white;
+  }
+
+  .tag.foods {
+    background: #0E202A;
+    color: white;
+  }
+
+  .tag.medical {
+    background: #0E202A;
+    color: white;
+  }
+
+  .card-content {
+    padding: 25px;
+  }
+
+  .card-content h3 {
+    font-size: 1.2rem;
+    color: #0E202A;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+    line-height: 1.4;
+    letter-spacing: 0.3px;
+  }
+
+  .progress-bar {
+    width: 100%;
+    height: 8px;
+    background: #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 12px;
+  }
+
+  .progress {
+    height: 100%;
+    background: linear-gradient(to right, #0E202A, #1a3a47);
+    border-radius: 10px;
+    transition: width 0.3s ease;
+  }
+
+  .card-content p {
+    font-size: 0.95rem;
+    color: #666;
+    margin: 8px 0;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+  }
+
+  .percentage {
+    font-weight: 700;
+    color: #0E202A;
+  }
+
+  .card-content strong {
+    color: #0E202A;
+    font-weight: 700;
+  }
+
+  .donate-btn {
+    width: 100%;
+    padding: 12px 24px;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #0E202A, #1a3a47);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  .donate-btn:hover {
+    background: linear-gradient(135deg, #1a3a47, #0E202A);
+    box-shadow: 0 6px 20px rgba(14, 32, 42, 0.3);
+    transform: translateY(-2px);
+  }
+
+  .donate-btn:active {
+    transform: translateY(0);
+  }
+
+  @media (max-width: 768px) {
+    .qodef-m-title-text {
+      font-size: 2rem;
+      margin-left: 0 !important;
     }
+
+    .donation-container {
+      grid-template-columns: 1fr;
+      gap: 25px;
+    }
+
+    .card-image {
+      height: 180px;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h3 {
+      font-size: 1.1rem;
+    }
+
+    .donate-btn {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+    }
+  }
+
+  .elementor-1036 .elementor-element.elementor-element-a1b5729 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 15px 0px 85px 0px !important;
 }
 
-.qodef-m-text
-{
-  font-size:18px;
-  font-weight:400;
-}
+                  
 
- .fund-me-section {
-            padding: 80px 20px;
-            background: #ffffff;
-        }
-
-        .fund-me-container {
-            max-width: 1300px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 80px;
-            align-items: start;
-        }
-
-        .fund-me-image {
-            position: relative;
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            height: 100%;
-            min-height: 650px;
-        }
-
-        .fund-me-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-
-        .fund-me-card {
-            background: white;
-            border-radius: 0;
-            padding: 0;
-        }
-
-        .fund-me-card h2 {
-            color: #2c5f8d;
-            font-size: 28px;
-            font-weight: 700;
-            margin-bottom: 30px;
-            text-align: left;
-        }
-
-        .donation-section h3 {
-            color: #2c5f8d;
-            font-size: 70px;
-            font-weight: 700;
-            margin-bottom: 20px;
-        }
-
-        .amount-display {
-            display: flex;
-            align-items: center;
-            margin-bottom: 30px;
-        }
-
-        .dollar-icon {
-            background: #6b8e4e;
-            color: white;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 24px;
-            font-weight: 700;
-            margin-right: 15px;
-        }
-
-        .amount-value {
-            font-size: 48px;
-            font-weight: 700;
-            color: #333;
-        }
-
-        .amount-buttons {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-bottom: 45px;
-        }
-
-        .amount-btn {
-            background: white;
-            color: #333;
-            border: 2px solid #ddd;
-            padding: 12px 30px;
-            border-radius: 25px;
-            font-size: 16px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-
-        .amount-btn.active {
-            background: #6b8e4e;
-            color: white;
-            border-color: #6b8e4e;
-        }
-
-        .amount-btn:hover {
-            border-color: #6b8e4e;
-        }
-
-        .amount-btn.active:hover {
-            background: #5a7842;
-            border-color: #5a7842;
-        }
-
-        .payment-section {
-            margin-bottom: 40px;
-        }
-
-        .payment-option {
-            border: 2px solid #e0e0e0;
-            border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 15px;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-
-        .payment-option:hover {
-            border-color: #2c5f8d;
-        }
-
-        .payment-option label {
-            display: flex;
-            align-items: center;
-            cursor: pointer;
-            font-size: 18px;
-            font-weight: 500;
-            color: #333;
-        }
-
-        .payment-option input[type="radio"] {
-            margin-right: 15px;
-            width: 20px;
-            height: 20px;
-            cursor: pointer;
-            accent-color: #2c5f8d;
-        }
-
-        .donate-now-btn {
-            background: #2c5f8d;
-            color: white;
-            border: none;
-            padding: 18px 40px;
-            border-radius: 10px;
-            font-size: 18px;
-            font-weight: 600;
-            cursor: pointer;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            transition: background 0.3s;
-        }
-
-        .donate-now-btn:hover {
-            background: #1e4159;
-        }
-
-        .donate-now-btn span {
-            font-size: 20px;
-        }
-
-        /* Responsive */
-        @media (max-width: 992px) {
-            .fund-me-container {
-                grid-template-columns: 1fr;
-                gap: 40px;
-            }
-            .fund-me-image {
-                min-height: 450px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .fund-me-section {
-                padding: 60px 15px;
-            }
-            .fund-me-card h2 {
-                font-size: 24px;
-            }
-            .amount-value {
-                font-size: 40px;
-            }
-            .amount-buttons {
-                gap: 8px;
-            }
-            .amount-btn {
-                padding: 10px 24px;
-                font-size: 15px;
-            }
-            .fund-me-image {
-                min-height: 350px;
-            }
-        }
     </style>
    
 
@@ -1816,97 +1916,224 @@ ol, ul {
     <div id="qodef-page-wrapper" class="">
       <div id="qodef-top-area">
         <div id="qodef-top-area-inner" class="qodef-content-grid">
-          <div class="qodef-widget-holder qodef--left">
-            <div id="block-28" class="widget widget_block qodef-top-bar-widget">
-              <div
-                class="wp-block-qi-blocks-advanced-text qodef-block-container qodef-widget-block-72731081"
-              >
-                <div class="qi-block-advanced-text qodef-block qodef-m">
-                  <p>
-                    <!-- <a href="https://marity.qodeinteractive.com/"
-                      >Marity Global</a
-                    > -->
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div id="block-29" class="widget widget_block qodef-top-bar-widget">
-              <div
-                id="icl_lang_sel_widget-2"
-                class="widget widget_icl_lang_sel_widget qodef-top-bar-widget"
-              >
-               
-              </div>
-            </div>
-          </div>
-          <div class="qodef-widget-holder qodef--right">
-            <div id="block-23" class="widget widget_block qodef-top-bar-widget">
-              <!-- <a href="https://marity.qodeinteractive.com/contact-us/"
-                >Home</a
-              > -->
-            </div>
-            <div id="block-24" class="widget widget_block qodef-top-bar-widget">
-              <!-- <a href="https://marity.qodeinteractive.com/careers/">About Us</a> -->
-            </div>
-
-            <div id="block-24" class="widget widget_block qodef-top-bar-widget">
-              <!-- <a href="https://marity.qodeinteractive.com/careers/">Advisory Board</a> -->
-            </div>
-
-            <div id="block-24" class="widget widget_block qodef-top-bar-widget">
-              <!-- <a href="https://marity.qodeinteractive.com/careers/">Volunteers</a> -->
-            </div>
-          </div>
         </div>
       </div> 
-            <!-- Header -->
-
-            <header id="page-header">
-        <div class="header-inner">
-          <div class="logo">
-            <a href="#home">
-              <img src="./logo.svg" alt="Logo" />
-            </a>
-          </div>
-
-          <!-- Desktop Menu -->
-          <nav class="desktop-nav">
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about-us">About Us</a></li>
-              <li><a href="#advisory-board">Advisory Board</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#fund-me">Fund Me</a></li>
-              <li><a href="#volunteers">Volunteers</a></li>
-              <li><a href="#blogs">Blog</a></li>
-              <li><a href="#contact-us">Contact Us</a></li>
-            </ul>
-          </nav>
-
-          <!-- Hamburger for Mobile -->
-          <div class="mobile-menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+      <header id="qodef-page-header" class="qodef-glossy--no" role="banner">
+      <div id="qodef-page-header-inner" class="qodef-content-grid">
+        <div class="qodef-header-wrapper">
+            <div class="qodef-header-logo">
+                <a
+                    itemprop="url"
+                    class="qodef-header-logo-link qodef-height--set qodef-source--image"
+                    href="../index.html"
+                    rel="home"
+                >
+                    <img
+                        loading="lazy"
+                        width="300"
+                        height="40"
+                        src="./logo.svg"
+                        class="qodef-header-logo-image qodef--main"
+                        alt="logo main"
+                        itemprop="image"
+                    />
+                    <img
+                        loading="lazy"
+                        width="300"
+                        height="40"
+                        src="../wp-content/uploads/2022/10/logo-dark.png"
+                        class="qodef-header-logo-image qodef--dark"
+                        alt="logo dark"
+                        itemprop="image"
+                    /><img
+                        loading="lazy"
+                        width="298"
+                        height="40"
+                        src="../wp-content/uploads/2022/11/logo-light.png"
+                        class="qodef-header-logo-image qodef--light"
+                        alt="logo light"
+                        itemprop="image"
+                    />
+                </a>
+            </div>
+            <nav
+                class="qodef-header-navigation"
+                role="navigation"
+                aria-label="Top Menu"
+            >
+                <ul id="menu-main-menu-1" class="menu">
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80">
+                        <svg
+                            class="qodef-svg--menu-star qodef-menu-item-star"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="7.5361"
+                            height="7.936"
+                            viewBox="0 0 7.5361 7.936"
+                        >
+                            <path
+                                d="M4.3359 0 4.064 2.9917 2.72 3.76 0 2.4961l.72-1.2324 1.84 1.3442.5918-.3359L2.896.0156ZM0 5.44l2.72-1.2642 1.3442.7681.272 2.9922L2.896 7.92l.2559-2.2559-.5919-.3365L.72 6.6719Zm6.8159 1.0239L4.3682 4.7358V3.2L6.816 1.472l.72 1.248-2.096.9118v.6719l2.0962.9121Z"
+                                fill="currentColor"
+                            />
+                        </svg>
+                        <a href="../index.html">
+                            <span class="qodef-menu-item-text"><span>Home</span></span>
+                        </a>
+                    </li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81">
+                        <a href="../about-us.html">
+                            <span class="qodef-menu-item-text"><span>About Us</span></span>
+                        </a>
+                    </li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3508">
+                        <a href="../advisory-board.html">
+                            <span class="qodef-menu-item-text"><span>Advisory Board</span></span>
+                        </a>
+                    </li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4061">
+                        <a href="../services.html">
+                            <span class="qodef-menu-item-text"><span>Services</span></span>
+                        </a>
+                    </li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82">
+                        <a href="../fund-me.html">
+                            <span class="qodef-menu-item-text"><span>Fund Me</span></span>
+                        </a>
+                    </li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83">
+                        <a href="../volunteers.html">
+                            <span class="qodef-menu-item-text"><span>Volunteers</span></span>
+                        </a>
+                    </li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84">
+                        <a href="../blog.html">
+                            <span class="qodef-menu-item-text"><span>Blog</span></span>
+                        </a>
+                    </li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85">
+                        <a href="../contact-us.html">
+                            <span class="qodef-menu-item-text"><span>Contact Us</span></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
         </div>
-
-        <!-- Mobile Menu -->
-        <nav class="mobile-nav">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about-us">About Us</a></li>
-            <li><a href="#advisory-board">Advisory Board</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#fund-me">Fund Me</a></li>
-            <li><a href="#volunteers">Volunteers</a></li>
-            <li><a href="#blogs">Blog</a></li>
-            <li><a href="#contact-us">Contact Us</a></li>
-          </ul>
-        </nav>
+    </div>
       </header>
 
+<!-- Mobile Header -->
+<header id="qodef-page-mobile-header" role="banner">
+    <div id="qodef-page-mobile-header-inner" class="">
+        <a
+            itemprop="url"
+            class="qodef-mobile-header-logo-link qodef-height--set qodef-source--image"
+            href="../index.html"
+            rel="home"
+        >
+            <img
+                loading="lazy"
+                width="300"
+                height="40"
+                src="../wp-content/uploads/2022/10/logo-main-img.png"
+                class="qodef-header-logo-image qodef--main"
+                alt="logo main"
+                itemprop="image"
+            />
+        </a>
 
+        <a
+            href="javascript:void(0)"
+            class="qodef-opener-icon qodef-m qodef-source--predefined qodef-mobile-header-opener"
+        >
+            <span class="qodef-m-icon qodef--open">
+                <svg
+                    class="qodef-svg--menu-open"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="60"
+                    height="60"
+                    viewBox="0 0 60 60"
+                >
+                    <rect width="60" height="60" rx="9" ry="9"></rect>
+                    <path d="M18 24.2h24v1H18z" fill="#fff"></path>
+                    <path d="M18 34.1h24v1H18z" fill="#fff"></path>
+                </svg>
+            </span>
+            <span class="qodef-m-icon qodef--close">
+                <svg
+                    class="qodef-svg--menu-close"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="60"
+                    height="60"
+                    viewBox="0 0 60 60"
+                >
+                    <rect width="60" height="60" rx="9" ry="9" />
+                    <path d="M29 18h1.2v23H29z" fill="#fff" />
+                    <path d="M18 29h24v1H18z" fill="#fff" />
+                </svg>
+            </span>
+        </a>
+    </div>
+    <nav
+        class="qodef-mobile-header-navigation"
+        role="navigation"
+        aria-label="Mobile Menu"
+    >
+        <ul id="menu-main-menu-3" class="">
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80">
+                <svg
+                    class="qodef-svg--menu-star qodef-menu-item-star"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="7.5361"
+                    height="7.936"
+                    viewBox="0 0 7.5361 7.936"
+                >
+                    <path
+                        d="M4.3359 0 4.064 2.9917 2.72 3.76 0 2.4961l.72-1.2324 1.84 1.3442.5918-.3359L2.896.0156ZM0 5.44l2.72-1.2642 1.3442.7681.272 2.9922L2.896 7.92l.2559-2.2559-.5919-.3365L.72 6.6719Zm6.8159 1.0239L4.3682 4.7358V3.2L6.816 1.472l.72 1.248-2.096.9118v.6719l2.0962.9121Z"
+                        fill="currentColor"
+                    />
+                </svg>
+                <a href="../index.html">
+                    <span class="qodef-menu-item-text"><span>Home</span></span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81">
+                <a href="../about-us.html">
+                    <span class="qodef-menu-item-text"><span>About Us</span></span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3508">
+                <a href="../advisory-board.html">
+                    <span class="qodef-menu-item-text"><span>Advisory Board</span></span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4061">
+                <a href="../services.html">
+                    <span class="qodef-menu-item-text"><span>Services</span></span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82">
+                <a href="../fund-me.html">
+                    <span class="qodef-menu-item-text"><span>Fund Me</span></span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83">
+                <a href="../volunteers.html">
+                    <span class="qodef-menu-item-text"><span>Volunteers</span></span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84">
+                <a href="../blog.html">
+                    <span class="qodef-menu-item-text"><span>Blog</span></span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85">
+                <a href="../contact-us.html">
+                    <span class="qodef-menu-item-text"><span>Contact Us</span></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
 
 
       <!-- Main -->
@@ -2134,7 +2361,7 @@ ol, ul {
                               </div>
                             </div>
                           </div>
-                          <a href="./about-us.html" class="btn btn-about">Learn More About Us</a>
+                          <a href="./about-us.html" class="btn btn-about">Learn More </a>
 
                          
                         </div>
@@ -2381,7 +2608,7 @@ ol, ul {
                                       <div class="qodef-e-content">
                                         <h5
                                           itemprop="name"
-                                          class="qodef-e-title entry-title"
+                                          class="qodef-e-title entry-title qodef-e-text"
                                         >
                                          Aneel Paulus
                                         </h5>
@@ -2568,7 +2795,7 @@ ol, ul {
                                   Services
                                 </h2>
                                 <p class="qodef-m-text" style="color: #ffffff">
-                                  Comprehensive cancer prevention and care services designed to detect early, educate effectively, and support continuously.
+                                  We provide comprehensive cancer prevention and care services tailored to every individual. Our team focuses on early detection through advanced screenings, educates patients and families with reliable resources, and offers continuous support throughout the treatment journey. From personalized consultations to wellness programs, we ensure compassionate care at every step. Our services also include community outreach, awareness campaigns, and expert guidance to empower patients in making informed health decisions.
                                 </p>
                               </div>
                             </div>
@@ -2690,7 +2917,7 @@ ol, ul {
                                               </svg>
                                             </span>
                                             <span
-                                              class="qodef-e-title-text"
+                                              class="qodef-m-text"
                                               style="color: #ffffff"
                                               >ExpertzView</span
                                             >
@@ -2786,7 +3013,7 @@ ol, ul {
                                               </svg>
                                             </span>
                                             <span
-                                              class="qodef-e-title-text"
+                                              class="qodef-m-text"
                                               style="color: #ffffff"
                                               >CK Score Assessment</span
                                             >
@@ -2894,7 +3121,7 @@ ol, ul {
                                               </svg>
                                             </span>
                                             <span
-                                              class="qodef-e-title-text"
+                                              class="qodef-m-text"
                                               style="color: #ffffff"
                                               >Free Cancer Screening</span>
                                           </span>
@@ -3072,63 +3299,186 @@ ol, ul {
                   <br/>
                   <br/>
 
+                  <!-- Fund Me -->
+                  
 
-                  <!-- Fund me -->
-                      <!-- Fund Me -->
+                 <!-- <section
+            class="donation-section"
+            id="blogs"
+          >
+          
+          <div class="container">
+  <div class="qodef-m-top-info-subtitle" style="border-bottom: 1px solid #dcdcdc; width:100%;"></div>
+</div>
 
-                      <!-- Fund Me Section -->
-    <section class="fund-me-section" id="fund-me">
-        <div class="fund-me-container">
-            <!-- Image Side -->
-            <div class="fund-me-image">
-                <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&h=800&fit=crop" alt="Children smiling together">
-            </div>
-
-            <!-- Form Side -->
-            <div class="fund-me-card">
-                <div class="donation-section">
-                    <h3>Fund Me</h3>
-                    <br/>
-                    <br/>
-                    <div class="amount-display">
-                        <div class="dollar-icon">$</div>
-                        <div class="amount-value" id="displayAmount">100</div>
-                    </div>
-                    
-                    <div class="amount-buttons">
-                        <button class="amount-btn active" data-amount="100">$100</button>
-                        <button class="amount-btn" data-amount="150">$150</button>
-                        <button class="amount-btn" data-amount="200">$200</button>
-                        <button class="amount-btn" data-amount="300">$300</button>
-                        <button class="amount-btn" data-amount="custom">Custom</button>
-                    </div>
-                </div>
-                
-                <div class="payment-section">
-                    <h3>Select Payment Method</h3>
-                    
-                    <div class="payment-option">
-                        <label>
-                            <input type="radio" name="payment" value="credit" checked>
-                            Credit Card
-                        </label>
-                    </div>
-                    
-                    <div class="payment-option">
-                        <label>
-                            <input type="radio" name="payment" value="offline">
-                            Offline Donation
-                        </label>
-                    </div>
-                </div>
-                
-                <button class="donate-now-btn">
-                    Donate Now <span>→</span>
-                </button>
-            </div>
+          
+          <h2 class="qodef-m-title-text" style="margin-left: 220px;"> Fund Me </h2>
+                                        
+                                      
+  <div class="container donation-container">
+    
+    
+    
+     Education Card -->
+    <!--  <div class="donation-card">
+      <div class="card-image">
+        <img src="https://melodic-chebakia-dc153f.netlify.app/Econet%20-%20Environment,%20Solar%20Renewable%20&%20Charity%20HTML5%20Template_files/donations-thumb1.png" alt="Education" />
+        <span class="tag education">EDUCATION</span>
+      </div>
+      <div class="card-content">
+        <h3>Fund Raising for Kids Education - 2025</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 85%"></div>
         </div>
-    </section>
+        <p>Donations: <span class="percentage">85%</span></p>
+        <p>Raised: <strong>$1260</strong> | Goal: <strong>$1600</strong></p>
+        <button class="donate-btn" onclick="donate('Education')">Donate Now</button>
+      </div>
+    </div>
 
+     Food Card -->
+    <!-- <div class="donation-card">
+      <div class="card-image">
+        <img src="https://melodic-chebakia-dc153f.netlify.app/Econet%20-%20Environment,%20Solar%20Renewable%20&%20Charity%20HTML5%20Template_files/donations-thumb2.png" alt="Foods" />
+        <span class="tag foods">FOODS</span>
+      </div>
+      <div class="card-content">
+        <h3>Donation Campaign for Healthy Meals</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 80%"></div>
+        </div>
+        <p>Donations: <span class="percentage">80%</span></p>
+        <p>Raised: <strong>$1080</strong> | Goal: <strong>$1400</strong></p>
+        <button class="donate-btn" onclick="donate('Foods')">Donate Now</button>
+      </div>
+    </div> -->
+
+    <!-- Medical Card -->
+    <!-- <div class="donation-card">
+      <div class="card-image">
+        <img src="https://html.ditsolution.net/econet/images/charity/donations-thumb3.png" alt="Medical" />
+        <span class="tag medical">MEDICAL</span>
+      </div>
+      <div class="card-content">
+        <h3>Medical Fund Raising for Orphan People</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 90%"></div>
+        </div>
+        <p>Donations: <span class="percentage">90%</span></p>
+        <p>Raised: <strong>$1890</strong> | Goal: <strong>$2100</strong></p>
+        <button class="donate-btn" onclick="donate('Medical')">Donate Now</button>
+      </div>
+    </div>
+
+  </div>
+</section>    -->
+
+
+<!-- <section class="donation-section" id="blogs"> -->
+   <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-a1b5729 elementor-section-full_width qodef-elementor-content-grid elementor-section-height-default elementor-section-height-default"
+                    id="blogs"
+                    data-id="a1b5729"
+                    data-element_type="section"
+                  >
+  <div class="container">
+    <div class="qodef-m-top-info-subtitle"></div>
+  </div>
+
+  <div class="container">
+    <div class="header-line"></div>
+  <h2 class="qodef-m-title-text"  > Fund Me </h2>
+    
+  </div>
+
+  <br/>
+
+  <div class="container donation-container">
+    
+    <!-- Education Card -->
+    <div class="donation-card">
+      <div class="card-image">
+        <img src="https://melodic-chebakia-dc153f.netlify.app/Econet%20-%20Environment,%20Solar%20Renewable%20&%20Charity%20HTML5%20Template_files/donations-thumb1.png" alt="Education" />
+        <span class="tag education">EDUCATION</span>
+      </div>
+      <div class="card-content">
+        <h3>Fund Raising for Kids Education - 2025</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 85%"></div>
+        </div>
+        <p>Donations: <span class="percentage">85%</span></p>
+        <p>Raised: <strong>$1260</strong> | Goal: <strong>$1600</strong></p>
+        <button class="donate-btn" onclick="donate('Education')">Donate Now</button>
+      </div>
+    </div>
+
+
+  
+    
+
+
+
+
+    <!-- Food Card -->
+    <div class="donation-card">
+      <div class="card-image">
+        <img src="https://melodic-chebakia-dc153f.netlify.app/Econet%20-%20Environment,%20Solar%20Renewable%20&%20Charity%20HTML5%20Template_files/donations-thumb2.png" alt="Foods" />
+        <span class="tag foods">FOODS</span>
+      </div>
+      <div class="card-content">
+        <h3>Donation Campaign for Healthy Meals</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 80%"></div>
+        </div>
+        <p>Donations: <span class="percentage">80%</span></p>
+        <p>Raised: <strong>$1080</strong> | Goal: <strong>$1400</strong></p>
+        <button class="donate-btn" onclick="donate('Foods')">Donate Now</button>
+      </div>
+    </div>
+
+    <!-- Medical Card -->
+    <div class="donation-card">
+      <div class="card-image">
+        <img src="https://html.ditsolution.net/econet/images/charity/donations-thumb3.png" alt="Medical" />
+        <span class="tag medical">MEDICAL</span>
+      </div>
+      <div class="card-content">
+        <h3>Medical Fund Raising for Orphan People</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 90%"></div>
+        </div>
+        <p>Donations: <span class="percentage">90%</span></p>
+        <p>Raised: <strong>$1890</strong> | Goal: <strong>$2100</strong></p>
+        <button class="donate-btn" onclick="donate('Medical')">Donate Now</button>
+      </div>
+    </div>
+
+
+    <!-- Medical Card -->
+    <!-- <div class="donation-card">
+      <div class="card-image">
+        <img src="https://html.ditsolution.net/econet/images/charity/donations-thumb3.png" alt="Medical" />
+        <span class="tag medical">MEDICAL</span>
+      </div>
+      <div class="card-content">
+        <h3>Medical Fund Raising for Orphan People</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 90%"></div>
+        </div>
+        <p>Donations: <span class="percentage">90%</span></p>
+        <p>Raised: <strong>$1890</strong> | Goal: <strong>$2100</strong></p>
+        <button class="donate-btn" onclick="donate('Medical')">Donate Now</button>
+      </div>
+    </div> -->
+
+
+  </div>
+</section>
+
+
+             
+
+ 
  
                   
                  
@@ -3262,11 +3612,11 @@ ol, ul {
                                         <div class="qodef-e-text">
                                           <h5
                                             itemprop="name"
-                                            class="qodef-e-title entry-title"
+                                            class=" entry-title"
                                           >
                                             <a
                                               itemprop="url"
-                                              class="qodef-e-title-link"
+                                              class="qodef-e-title-link qodef-m-text"
                                               href=""
                                             >
                                               Community Impact: How One Village Transformed Cancer Awareness
@@ -3373,7 +3723,7 @@ ol, ul {
                                           >
                                             <a
                                               itemprop="url"
-                                              class="qodef-e-title-link"
+                                              class="qodef-e-title-link qodef-m-text"
                                               href=""
                                             >
                                              Eating Your Way to Better Health: Anti-Cancer Foods
@@ -3481,7 +3831,7 @@ ol, ul {
                                           >
                                             <a
                                               itemprop="url"
-                                              class="qodef-e-title-link"
+                                              class="qodef-e-title-link qodef-m-text"
                                               href=""
                                             >
                                               
@@ -3494,7 +3844,7 @@ ol, ul {
                                             <a
                                               itemprop="author"
                                               href=""
-                                              class="qodef-e-info-author"
+                                              class="qodef-e-info-author "
                                             >
                                               Mary Fox</a
                                             >
@@ -3582,7 +3932,7 @@ ol, ul {
                           <h2 class="testimonials-title">
                                  Your Support Can Save Lives!!
                                 </h2>
-                         <p class="qodef-m-text"> If you have ideas, want to contribute, or simply want to talk — we’re here.
+                         <p class="qodef-m-content"> If you have ideas, want to contribute, or simply want to talk — we’re here.
                           🌍 Together, we can raise awareness and spread hope.</p>
                          </p>
                          <div style="margin-top: 30px;"><a href="./contact-us.html" class="btn btn-about">Get In Touch</a></div>

@@ -10,7 +10,7 @@
       content="width=device-width, initial-scale=1, user-scalable=yes"
     />
 
-    <title>About Us &#8211; Marity</title>
+    <title>Get In Touch &#8211; Prevent Cancer</title>
     <meta name="robots" content="max-image-preview:large" />
     <style>
       img:is([sizes="auto" i], [sizes^="auto," i]) {
@@ -259,7 +259,7 @@
         font-size: 1.125em;
       }
       .wp-block-file__button {
-        background: #32373c;
+        /* background: #32373c; */
         color: #fff;
         text-decoration: none;
       }
@@ -757,15 +757,15 @@
     />
     <link
       rel="stylesheet"
-      id="magnific-popup-css"
-      href="https://marity.qodeinteractive.com/wp-content/plugins/marity-core/assets/plugins/magnific-popup/magnific-popup.css?ver=6.8.3"
+      id="e-swiper-css"
+      href="https://marity.qodeinteractive.com/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.28.0"
       type="text/css"
       media="all"
     />
     <link
       rel="stylesheet"
-      id="elementor-post-4512-css"
-      href="https://marity.qodeinteractive.com/wp-content/uploads/elementor/css/post-4512.css?ver=1742297501"
+      id="elementor-post-5898-css"
+      href="https://marity.qodeinteractive.com/wp-content/uploads/elementor/css/post-5898.css?ver=1742303195"
       type="text/css"
       media="all"
     />
@@ -848,11 +848,6 @@
       defer="defer"
       data-wp-strategy="defer"
     ></script>
-    <script
-      type="text/javascript"
-      src="https://marity.qodeinteractive.com/wp-content/themes/marity/inc/justified-gallery/assets/js/plugins/jquery.justifiedGallery.min.js?ver=1"
-      id="jquery-justified-gallery-js"
-    ></script>
     <link
       rel="https://api.w.org/"
       href="https://marity.qodeinteractive.com/wp-json/"
@@ -861,7 +856,7 @@
       rel="alternate"
       title="JSON"
       type="application/json"
-      href="https://marity.qodeinteractive.com/wp-json/wp/v2/pages/4512"
+      href="https://marity.qodeinteractive.com/wp-json/wp/v2/pages/5898"
     />
     <link
       rel="EditURI"
@@ -871,19 +866,22 @@
     />
     <meta name="generator" content="WordPress 6.8.3" />
     <meta name="generator" content="WooCommerce 9.4.2" />
-    <link rel="canonical" href="https://marity.qodeinteractive.com/about-us/" />
-    <link rel="shortlink" href="https://marity.qodeinteractive.com/?p=4512" />
+    <link
+      rel="canonical"
+      href="https://marity.qodeinteractive.com/get-in-touch/"
+    />
+    <link rel="shortlink" href="https://marity.qodeinteractive.com/?p=5898" />
     <link
       rel="alternate"
       title="oEmbed (JSON)"
       type="application/json+oembed"
-      href="https://marity.qodeinteractive.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmarity.qodeinteractive.com%2Fabout-us%2F"
+      href="https://marity.qodeinteractive.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmarity.qodeinteractive.com%2Fget-in-touch%2F"
     />
     <link
       rel="alternate"
       title="oEmbed (XML)"
       type="text/xml+oembed"
-      href="https://marity.qodeinteractive.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmarity.qodeinteractive.com%2Fabout-us%2F&#038;format=xml"
+      href="https://marity.qodeinteractive.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmarity.qodeinteractive.com%2Fget-in-touch%2F&#038;format=xml"
     />
 
     <!-- Open Graph data is managed by Alex MacArthur's Complete Open Graph plugin. (v3.4.5) -->
@@ -913,7 +911,7 @@
       name="twitter:description"
       content="Marity - Laboratory and Science Research Theme"
     />
-    <!-- End Complete Open Graph. | 0.002985954284668s -->
+    <!-- End Complete Open Graph. | 0.0043089389801025s -->
 
     <!-- Google Tag Manager for WordPress by gtm4wp.com -->
     <!-- GTM Container placement set to automatic -->
@@ -1144,6 +1142,7 @@
         background-size: 0 calc(100% - 1px);
         transition: 0.4s background-size cubic-bezier(0.26, 0.57, 0.14, 0.81);
         background-position-x: 100%;
+        align-items: center;
       }
 
       .wp-block-woocommerce-attribute-filter
@@ -1166,154 +1165,897 @@
         flex-direction: row;
       }
 
-      #qodef-page-header {
-        border-bottom: none;
+      .hero-banner {
+        position: relative;
+        width: 90%;
+        max-width: 1800px;
+        height: 500px;
+        margin: 50px auto;
+        border-radius: 30px;
+        overflow: hidden;
+        background: url("../laboratory-home/about-us.jpg") no-repeat center
+          center/cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
-      #qodef-page-header-inner {
-        border-bottom: none;
+      .hero-banner::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.25); /* subtle overlay */
       }
 
-      .qodef-header-wrapper {
-        border-bottom: none;
+      .hero-content {
+        position: relative;
+        color: #fff;
+        text-align: center;
+        z-index: 1;
       }
 
-      .elementor-4512 .elementor-element.elementor-element-c89aa6e:not(.elementor-motion-effects-element-type-background), .elementor-4512 .elementor-element.elementor-element-c89aa6e > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-          background-image: url(../laboratory-home/about-us.jpg) !important;
-          background-position: center center;
-          background-repeat: no-repeat;
-          background-size: cover;
+      .hero-content h1 {
+        font-size: 48px;
+        margin: 0 0 10px;
       }
 
-          .header-inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 15px 20px;
-    }
+      .hero-content p {
+        font-size: 20px;
+        max-width: 600px;
+        margin: 0 auto;
+      }
 
-    .logo img {
-      height: 40px;
-    }
+      .submit-btn {
+        padding: 16px 40px;
+        background: linear-gradient(to right, #0099ff, #0066cc);
+        color: #fff;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        align-self: flex-start;
+        font-size: 16px;
+        font-weight: 600;
+        transition: transform 0.2s;
+        margin-top: 10px;
+        width: 100% !important;
+      }
 
-    /* Desktop Nav */
-    .desktop-nav ul {
-      display: flex;
-      gap: 40px;
-      list-style: none;
-    }
+      .elementor-5898
+        .elementor-element.elementor-element-de96ea6
+        > .elementor-motion-effects-container
+        > .elementor-motion-effects-layer {
+        /* background-image: url("https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-bg-img.png"); */
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: auto;
+      }
 
-    .desktop-nav a {
-      text-decoration: none;
-      color: #333;
-      font-weight: 500;
-      transition: color 0.3s;
-    }
+      #page-header {
+        width: 100%;
+        background: #fff;
+        border-bottom: 1px solid #ddd;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+      }
 
-    .desktop-nav a:hover {
-      color: #8fbdee;
-    }
+      .contact-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1.3fr;
+        gap: 80px;
+        align-items: center;
+      }
 
-    /* Mobile Menu Toggle */
-    .mobile-menu-toggle {
-      display: none;
-      flex-direction: column;
-      gap: 5px;
-      cursor: pointer;
-    }
+      .left-side {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+      }
 
-    .mobile-menu-toggle span {
-      width: 25px;
-      height: 3px;
-      background: #333;
-      border-radius: 2px;
-    }
+      .info-card {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        padding: 32px;
+        background: #d6d9d2;
+        border-radius: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
 
-    /* Mobile Menu */
-    .mobile-nav {
-      display: none;
-      background: #fff;
-      width: 100%;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      border-top: 1px solid #ddd;
-    }
+      .info-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      }
 
-    .mobile-nav ul {
-      list-style: none;
-      padding: 10px 0;
-    }
+      .icon-circle {
+        width: 60px;
+        height: 60px;
+        background: #9ca895;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        font-size: 28px;
+      }
 
-    .mobile-nav li {
-      border-bottom: 1px solid #eee;
-    }
+      .info-text h3 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #646464;
+        margin-bottom: 6px;
+      }
 
-    .mobile-nav a {
-      display: block;
-      padding: 10px 20px;
-      text-decoration: none;
-      color: #333;
-    }
+      .info-text p {
+        font-size: 18px;
+        color: #555;
+        font-weight: 500;
+      }
 
-    .mobile-nav a:hover {
-      background: #f1f1f1;
-    }
+      .social-section {
+        margin-top: 20px;
+      }
 
-    /* Responsive */
-    @media (min-width:1024px){
-      .desktop-nav ul {
+      .social-section p {
+        font-size: 15px;
+        color: #646464;
+        font-weight: 600;
+        margin-bottom: 16px;
+      }
+
+      .social-links {
         display: flex;
         gap: 20px;
-        list-style: none;
-    }
-    }
-
-    @media (min-width:1024px) and (max-width:1024px){
-      .desktop-nav {
-        display: none;
       }
 
-      .mobile-menu-toggle {
+      .social-links a {
+        width: 48px;
+        height: 48px;
+        background: #d6d9d2;
+        border-radius: 50%;
         display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #555;
+        font-weight: 600;
+        font-size: 14px;
+        transition: all 0.3s ease;
       }
 
-      .mobile-nav.show {
-        display: block;
-      }
-    }
-    @media (max-width: 992px) {
-      .desktop-nav {
-        display: none;
+      .social-links a:hover {
+        background: #c4c7be;
+        transform: scale(1.1);
       }
 
-      .mobile-menu-toggle {
+      .right-side {
+        background: #fff;
+        border-radius: 28px;
+        padding: 60px;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+      }
+
+      .right-side h2 {
+        font-size: 42px;
+        font-weight: 700;
+        color: #0e202a;
+        margin-bottom: 20px;
+        line-height: 1.2;
+      }
+
+      .right-side > p {
+        font-size: 17px;
+        color: #777;
+        line-height: 1.7;
+        margin-bottom: 40px;
+      }
+
+      .form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+      }
+
+      .form-group {
         display: flex;
+        flex-direction: column;
       }
 
-      .mobile-nav.show {
-        display: block;
+      .form-group.full {
+        grid-column: 1 / -1;
       }
-    }
 
+      .form-group label {
+        font-size: 15px;
+        font-weight: 600;
+        color: #0e202a;
+        margin-bottom: 10px;
+      }
 
-    ol:not(.wp-block), ul:not(.wp-block) {
-        margin: 0 0 0 !important;
-    }
+      .form-group input,
+      .form-group textarea {
+        padding: 18px 22px;
+        border: none;
+        border-radius: 14px;
+        background-color: #d6d9d2;
+        font-size: 16px;
+        color: #555;
+        font-family: inherit;
+        transition: background-color 0.3s ease;
+      }
 
-    ol, ul {
-        list-style-position: inside;
-      margin-bottom: 0em;
+      .form-group input:focus,
+      .form-group textarea:focus {
+        outline: none;
+        background-color: #c4c7be;
+      }
+
+      .form-group textarea {
+        resize: vertical;
+        min-height: 140px;
+      }
+
+      .form-group input::placeholder,
+      .form-group textarea::placeholder {
+        color: #999;
+      }
+
+      .submit-btn {
+        padding: 18px 50px;
+        background: #8db5ca;
+        color: #fff;
+        border: none;
+        border-radius: 12px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        margin-top: 16px;
+      }
+
+      .submit-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 25px rgba(0, 153, 255, 0.3);
+      }
+
+      @media (max-width: 1024px) {
+        .contact-container {
+          grid-template-columns: 1fr;
+          gap: 50px;
+        }
+
+        .right-side {
+          padding: 40px;
+        }
+
+        .right-side h2 {
+          font-size: 32px;
+        }
+
+        .form-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      /* Navbar */
+      /* Remove bottom line / shadow from header */
+      #qodef-page-header {
+        border-bottom: none !important;
+        box-shadow: none !important;
+        background-color: #fff; /* optional, keep header clean */
+      }
+
+      /* Remove any line from nav itself */
+      .qodef-header-navigation {
+        border-bottom: none !important;
+        box-shadow: none !important;
+      }
+
+      /* Make menu items neat and spaced */
+      .qodef-header-navigation .menu {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        margin: 0;
         padding: 0;
-    }
+        list-style: none;
+      }
 
+      /* Menu links styling */
+      .qodef-header-navigation .menu a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+        padding: 10px 0;
+        transition: color 0.3s ease;
+      }
 
+      .qodef-header-navigation .menu a:hover {
+        color: #c4825e; /* highlight color on hover */
+      }
+
+      /* Responsive: mobile toggle */
+      @media (max-width: 1024px) {
+        .qodef-header-navigation .menu {
+          gap: 15px;
+        }
+        .qodef-header-navigation .menu a {
+          font-size: 14px;
+        }
+      }
+
+      /* Optional: keep header always above content */
+      #qodef-page-header {
+        position: relative; /* change to fixed if you want sticky header */
+        z-index: 999;
+      }
+
+      /* Header */
+      /* Base styles */
+      #qodef-page-header {
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+      }
+
+      .qodef-header-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 10px 20px;
+      }
+
+      .qodef-desktop-nav ul {
+        display: flex;
+        gap: 25px;
+        list-style: none;
+      }
+
+      .qodef-desktop-nav a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+      }
+
+      .qodef-mobile-toggle {
+        display: none;
+        font-size: 28px;
+        cursor: pointer;
+      }
+
+      .qodef-mobile-header-navigation {
+        display: none;
+        background: #fff;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .qodef-mobile-header-navigation ul {
+        list-style: none;
+        padding: 10px 0;
+      }
+
+      .qodef-mobile-header-navigation li {
+        padding: 12px 20px;
+        border-bottom: 1px solid #eee;
+      }
+
+      .qodef-mobile-header-navigation a {
+        text-decoration: none;
+        color: #333;
+        display: block;
+      }
+
+      /* Responsive behavior */
+      @media (max-width: 1024px) {
+        .qodef-desktop-nav {
+          display: none;
+        }
+
+        .qodef-mobile-toggle {
+          display: block;
+        }
+
+        .qodef-mobile-header-navigation.active {
+          display: block;
+        }
+      }
+
+      .about-us {
+        padding: 60px 20px;
+        background-color: #f9fafb;
+      }
+
+      .about-container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .about-header {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      .about-header h2 {
+        font-size: 2.5rem;
+        /* color: #1a1a1a; */
+        font-weight: 700;
+        margin: 0;
+      }
+
+      .about-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+      }
+
+      .mission-card,
+      .vision-card {
+        background-color: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .mission-card:hover,
+      .vision-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+      }
+
+      .mission-card h3,
+      .vision-card h3 {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-weight: 600;
+      }
+
+      .mission-card p,
+      .vision-card p {
+        color: #555;
+        font-size: 1rem;
+        line-height: 1.6;
+        margin: 0;
+      }
+
+      @media (max-width: 768px) {
+        .about-content {
+          grid-template-columns: 1fr;
+          gap: 30px;
+        }
+
+        .about-header h2 {
+          font-size: 2rem;
+        }
+
+        .mission-card,
+        .vision-card {
+          padding: 25px;
+        }
+      }
+
+      .about-us {
+        padding: 80px 20px;
+        background: linear-gradient(to bottom, #f9fafb, #ffffff);
+      }
+
+      .about-container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .about-header {
+        text-align: center;
+        margin-bottom: 80px;
+      }
+
+      .about-header h2 {
+        font-size: 2.5rem;
+        /* color: #1a1a1a; */
+        font-weight: 700;
+        margin-bottom: 15px;
+        letter-spacing: 0.5px;
+      }
+
+      .header-underline {
+        width: 80px;
+        height: 4px;
+        /* background: linear-gradient(to right, #ec4899, #fbbf24, #3b82f6); */
+        margin: 0 auto;
+        border-radius: 2px;
+      }
+
+      /* Mission Section */
+      .mission-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        align-items: center;
+        margin-bottom: 100px;
+      }
+
+      .mission-content {
+        order: 0;
+      }
+
+      .mission-visual {
+        background-image: url("https://media.istockphoto.com/id/537311780/photo/unity-of-indian-children-asia.jpg?b=1&s=612x612&w=0&k=20&c=a_G_fs077szgwZCc8LWScf6rw0ozuJVJgfDP1M5b2MQ="); /* replace with your image URL */
+        background-size: cover;
+        background-position: center;
+        border-radius: 12px;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .mission-visual::before {
+        content: none;
+      }
+
+      .mission-card {
+        background: white;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border-left: 5px solid #0e202a;
+        position: relative;
+        z-index: 1;
+      }
+
+      .mission-card h3 {
+        font-size: 1.8rem;
+        color: #1a1a1a;
+        font-weight: 700;
+        margin-bottom: 15px;
+        letter-spacing: 0.3px;
+      }
+
+      .mission-card p {
+        color: #555;
+        font-size: 1rem;
+        line-height: 1.7;
+        margin: 0;
+        letter-spacing: 0.3px;
+        text-align: justify;
+      }
+
+      /* Vision Section */
+      .vision-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        align-items: center;
+        margin-bottom: 60px;
+      }
+
+      /* .vision-visual {
+        background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+        border-radius: 12px;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .vision-visual::before {
+        content: "🌍";
+        font-size: 80px;
+      } */
+
+      .vision-visual {
+        background-image: url("https://images.pexels.com/photos/3184434/pexels-photo-3184434.jpeg?auto=compress&cs=tinysrgb&w=600"); /* replace with your image URL */
+        background-size: cover;
+        background-position: center;
+        border-radius: 12px;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        position: relative;
+        overflow: hidden;
+      }
+
+      /* Remove the emoji pseudo-element */
+      .vision-visual::before {
+        content: none;
+      }
+
+      .vision-card {
+        background: white;
+        padding: 40px;
+        border-radius: 12px;
+        /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); */
+        border-left: 5px solid #0e202a;
+        position: relative;
+        z-index: 1;
+      }
+
+      .vision-card h3 {
+        font-size: 1.8rem;
+        /* color: #1a1a1a; */
+        font-weight: 700;
+        margin-bottom: 15px;
+        letter-spacing: 0.3px;
+      }
+
+      .vision-card p {
+        color: #555;
+        font-size: 1rem;
+        line-height: 1.7;
+        margin: 0;
+        letter-spacing: 0.3px;
+        text-align: justify;
+      }
+
+      /* Bottom Accent */
+      .about-accent {
+        text-align: center;
+        background: linear-gradient(
+          135deg,
+          rgba(236, 72, 153, 0.1),
+          rgba(59, 130, 246, 0.1)
+        );
+        padding: 30px;
+        border-radius: 12px;
+        border: 1px solid rgba(236, 72, 153, 0.2);
+      }
+
+      .about-accent p {
+        font-size: 1.1rem;
+        color: #1a1a1a;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      /* Hover Effects */
+      .mission-card,
+      .vision-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .mission-card:hover,
+      .vision-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+      }
+
+      .qodef-menu-item-text {
+        font-size: 20px;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+        color: #222;
+        text-transform: capitalize;
+        letter-spacing: 0.5px;
+        transition: color 0.3s ease;
+      }
+
+      .qodef-m-text {
+        font-size: 18px;
+        font-weight: 400;
+        color: #555;
+        line-height: 1.6;
+        margin-top: 8px;
+        letter-spacing: 0.3px;
+        font-family: "Poppins", sans-serif;
+        text-align: justify;
+        transition: color 0.3s ease;
+      }
+
+      .qodef-m-content {
+        font-size: 18px;
+        font-weight: 400;
+        color: #555;
+        line-height: 1.6;
+        margin-top: 8px;
+        letter-spacing: 0.3px;
+        font-family: "Poppins", sans-serif;
+        text-align: justify;
+        transition: color 0.3s ease;
+      }
+
+      /* Mobile Responsive */
+      @media (max-width: 768px) {
+        .about-us {
+          padding: 60px 20px;
+        }
+
+        .about-header {
+          margin-bottom: 50px;
+        }
+
+        .about-header h2 {
+          font-size: 2rem;
+        }
+
+        .mission-section,
+        .vision-section {
+          grid-template-columns: 1fr;
+          gap: 30px;
+          margin-bottom: 60px;
+        }
+
+        .mission-content {
+          order: 1;
+        }
+
+        .mission-visual {
+          order: 2;
+          height: 250px;
+        }
+
+        .mission-visual::before,
+        .vision-visual::before {
+          font-size: 60px;
+        }
+
+        .mission-card,
+        .vision-card {
+          padding: 25px;
+        }
+
+        .mission-card h3,
+        .vision-card h3 {
+          font-size: 1.5rem;
+        }
+
+        .mission-card p,
+        .vision-card p {
+          font-size: 0.95rem;
+        }
+      }
     </style>
   </head>
+
+  <header id="qodef-page-header" class="qodef-glossy--no" role="banner">
+    <div id="qodef-page-header-inner" class="qodef-content-grid">
+      <div class="qodef-header-wrapper">
+        <div class="qodef-header-logo">
+          <a
+            itemprop="url"
+            class="qodef-header-logo-link qodef-height--set qodef-source--image"
+            href="../index.html"
+            rel="home"
+          >
+            <img
+              loading="lazy"
+              width="300"
+              height="40"
+              src="./logo.svg"
+              class="qodef-header-logo-image qodef--main"
+              alt="logo main"
+              itemprop="image"
+            />
+            <img
+              loading="lazy"
+              width="300"
+              height="40"
+              src="../wp-content/uploads/2022/10/logo-dark.png"
+              class="qodef-header-logo-image qodef--dark"
+              alt="logo dark"
+              itemprop="image"
+            /><img
+              loading="lazy"
+              width="298"
+              height="40"
+              src="../wp-content/uploads/2022/11/logo-light.png"
+              class="qodef-header-logo-image qodef--light"
+              alt="logo light"
+              itemprop="image"
+            />
+          </a>
+        </div>
+        <nav
+          class="qodef-header-navigation"
+          role="navigation"
+          aria-label="Top Menu"
+        >
+          <ul id="menu-main-menu-1" class="menu">
+            <li
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80"
+            >
+              <svg
+                class="qodef-svg--menu-star qodef-menu-item-star"
+                xmlns="http://www.w3.org/2000/svg"
+                width="7.5361"
+                height="7.936"
+                viewBox="0 0 7.5361 7.936"
+              >
+                <path
+                  d="M4.3359 0 4.064 2.9917 2.72 3.76 0 2.4961l.72-1.2324 1.84 1.3442.5918-.3359L2.896.0156ZM0 5.44l2.72-1.2642 1.3442.7681.272 2.9922L2.896 7.92l.2559-2.2559-.5919-.3365L.72 6.6719Zm6.8159 1.0239L4.3682 4.7358V3.2L6.816 1.472l.72 1.248-2.096.9118v.6719l2.0962.9121Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <a href="../index.html">
+                <span class="qodef-menu-item-text"><span>Home</span></span>
+              </a>
+            </li>
+            <li
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81"
+            >
+              <a href="../about-us.html">
+                <span class="qodef-menu-item-text"><span>About Us</span></span>
+              </a>
+            </li>
+            <li
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3508"
+            >
+              <a href="../advisory-board.html">
+                <span class="qodef-menu-item-text"
+                  ><span>Advisory Board</span></span
+                >
+              </a>
+            </li>
+            <li
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4061"
+            >
+              <a href="../services.html">
+                <span class="qodef-menu-item-text"><span>Services</span></span>
+              </a>
+            </li>
+            <li
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82"
+            >
+              <a href="../fund-me.html">
+                <span class="qodef-menu-item-text"><span>Fund Me</span></span>
+              </a>
+            </li>
+            <li
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83"
+            >
+              <a href="../volunteers.html">
+                <span class="qodef-menu-item-text"
+                  ><span>Volunteers</span></span
+                >
+              </a>
+            </li>
+            <li
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84"
+            >
+              <a href="../blog.html">
+                <span class="qodef-menu-item-text"><span>Blog</span></span>
+              </a>
+            </li>
+            <li
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85"
+            >
+              <a href="../contact-us.html">
+                <span class="qodef-menu-item-text"
+                  ><span>Contact Us</span></span
+                >
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
   <body
-    class="wp-singular page-template page-template-page-full-width page-template-page-full-width-php page page-id-4512 wp-theme-marity theme-marity qode-framework-1.2.4 woocommerce-no-js qodef-qi--no-touch qi-addons-for-elementor-1.8.9 qodef-back-to-top--enabled qodef-header--standard qodef-mobile-header--standard qodef-drop-down-second--full-width qodef-drop-down-second--default qodef-sidebar-border-right marity-core-1.1 marity-1.1 qodef-content-grid-1400 qode-export-1.0 qodef-header-standard--right qodef-search--standard elementor-default elementor-kit-4 elementor-page elementor-page-4512"
+    class="wp-singular page-template page-template-page-full-width page-template-page-full-width-php page page-id-5898 wp-theme-marity theme-marity qode-framework-1.2.4 woocommerce-no-js qodef-qi--no-touch qi-addons-for-elementor-1.8.9 qodef-back-to-top--enabled qodef-header--standard qodef-mobile-header--standard qodef-drop-down-second--full-width qodef-drop-down-second--default qodef-sidebar-border-right marity-core-1.1 marity-1.1 qodef-content-grid-1400 qode-export-1.0 qodef-header-standard--right qodef-search--standard elementor-default elementor-kit-4 elementor-page elementor-page-5898"
     itemscope
     itemtype="https://schema.org/WebPage"
   >
@@ -1334,1716 +2076,409 @@
       >Skip to the content</a
     >
     <div id="qodef-page-wrapper" class="">
-      <div id="qodef-page-wrapper" class="">
-  <!-- Top Bar -->
-  <div id="qodef-top-area">
-    <div id="qodef-top-area-inner" class="qodef-content-grid">
-      <div class="qodef-widget-holder qodef--left">
-        <div id="block-28" class="widget widget_block qodef-top-bar-widget">
-          <div class="wp-block-qi-blocks-advanced-text qodef-block-container qodef-widget-block-72731081">
-            <div class="qi-block-advanced-text qodef-block qodef-m">
-              <p></p>
-            </div>
-          </div>
-        </div>
+      <!-- Updated Header -->
 
-        <div id="block-29" class="widget widget_block qodef-top-bar-widget">
-          <div id="icl_lang_sel_widget-2" class="widget widget_icl_lang_sel_widget qodef-top-bar-widget"></div>
-        </div>
-      </div>
-
-      <div class="qodef-widget-holder qodef--right">
-        <div id="block-23" class="widget widget_block qodef-top-bar-widget"></div>
-        <div id="block-24" class="widget widget_block qodef-top-bar-widget"></div>
-        <div id="block-25" class="widget widget_block qodef-top-bar-widget"></div>
-        <div id="block-26" class="widget widget_block qodef-top-bar-widget"></div>
-      </div>
-    </div>
-  </div>
-
-          <!-- Header -->
-
-            <header id="page-header">
-        <div class="header-inner">
-          <div class="logo">
-            <a href="#home">
-              <img src="./logo.svg" alt="Logo" />
-            </a>
+      <header id="qodef-page-header">
+        <div class="qodef-header-inner">
+          <div class="qodef-logo">
+            <a href="../index.html"><img src="your-logo.png" alt="Logo" /></a>
           </div>
 
           <!-- Desktop Menu -->
-          <nav class="desktop-nav">
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about-us">About Us</a></li>
-              <li><a href="#advisory-board">Advisory Board</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#fund-me">Fund Me</a></li>
-              <li><a href="#volunteers">Volunteers</a></li>
-              <li><a href="#blogs">Blog</a></li>
-              <li><a href="#contact-us">Contact Us</a></li>
+          <nav class="qodef-desktop-nav">
+            <ul class="qodef-menu">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../about-us.html">About Us</a></li>
+              <li><a href="../advisory-board.html">Advisory Board</a></li>
+              <li><a href="../services.html">Services</a></li>
+              <li><a href="../fund-me.html">Fund Me</a></li>
+              <li><a href="../volunteers.html">Volunteers</a></li>
+              <li><a href="../blog.html">Blog</a></li>
+              <li><a href="../contact-us.html">Contact Us</a></li>
             </ul>
           </nav>
 
-          <!-- Hamburger for Mobile -->
-          <div class="mobile-menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
+          <!-- Mobile Toggle -->
+          <div class="qodef-mobile-toggle" onclick="toggleMobileMenu()">☰</div>
+
+          <!-- Mobile Menu -->
+          <nav class="qodef-mobile-header-navigation" id="mobileMenu">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../about-us.html">About Us</a></li>
+              <li><a href="../advisory-board.html">Advisory Board</a></li>
+              <li><a href="../services.html">Services</a></li>
+              <li><a href="../fund-me.html">Fund Me</a></li>
+              <li><a href="../volunteers.html">Volunteers</a></li>
+              <li><a href="../blog.html">Blog</a></li>
+              <li><a href="../contact-us.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Hero Banner -->
+      <section class="hero-banner">
+        <div class="hero-content">
+          <!-- <h1>About Us</h1>
+                              <p>We are passionate about building sustainable futures.</p> -->
+        </div>
+      </section>
+      <!-- Contact Us -->
+
+      <section class="about-us">
+        <div class="about-container">
+          <!-- Header -->
+          <div class="about-header qodef-m-text">
+            <h2>About Us</h2>
+            <div class="header-underline"></div>
+          </div>
+
+          <!-- Mission Section -->
+          <div class="mission-section">
+            <div class="mission-content">
+              <div class="mission-card">
+                <h3>Our Mission</h3>
+                <p class="qodef-m-text">
+                  We believe that prevention is the most powerful weapon in the
+                  fight against cancer. Our organization is dedicated to
+                  reducing cancer incidence through education, early detection
+                  programs, and community outreach initiatives that empower
+                  individuals to take control of their health. We strive to make
+                  cancer prevention accessible to everyone, regardless of their
+                  economic background, by providing free screenings, awareness
+                  campaigns, and support services to underserved communities.
+                </p>
+              </div>
+            </div>
+            <div class="mission-visual"></div>
+          </div>
+
+          <!-- Vision Section -->
+          <div class="vision-section">
+            <div class="vision-visual"></div>
+            <div class="vision-card">
+              <h3>Our Vision</h3>
+              <p class="qodef-m-text">
+                We envision a world where everyone has access to the knowledge,
+                resources, and medical care needed to prevent cancer. A world
+                where zip codes and bank balances don't determine health
+                outcomes. A world where communities are empowered to protect
+                themselves and their loved ones from this devastating disease.
+                Through sustained effort, collaboration, and compassion, we
+                believe we can create a future where cancer is caught early or
+                prevented altogether.
+              </p>
+            </div>
+          </div>
+
+          <!-- Bottom Accent -->
+          <div class="about-accent">
+            <p>💪 Together, We Can Make a Difference</p>
           </div>
         </div>
+      </section>
 
-        <!-- Mobile Menu -->
-        <nav class="mobile-nav">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about-us">About Us</a></li>
-            <li><a href="#advisory-board">Advisory Board</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#fund-me">Fund Me</a></li>
-            <li><a href="#volunteers">Volunteers</a></li>
-            <li><a href="#blogs">Blog</a></li>
-            <li><a href="#contact-us">Contact Us</a></li>
-          </ul>
-        </nav>
-      </header>
-</div>
-
-      <div id="qodef-page-outer">
-        <div id="qodef-page-inner" class="qodef-content-full-width">
-          <main
-            id="qodef-page-content"
-            class="qodef-grid qodef-layout--template"
-            role="main"
-          >
-            <div class="qodef-grid-inner">
-              <div
-                class="qodef-grid-item qodef-page-content-section qodef-col--12 qodef-col--content"
-              >
-                <div
-                  data-elementor-type="wp-page"
-                  data-elementor-id="4512"
-                  class="elementor elementor-4512"
-                >
-                  <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-4f22bdd elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                    data-id="4f22bdd"
+      <!-- <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-d5f9c6d elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                    data-id="d5f9c6d"
                     data-element_type="section"
                   >
                     <div class="elementor-container elementor-column-gap-no">
                       <div
-                        class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bf1fc7d"
-                        data-id="bf1fc7d"
+                        class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c74e3c1"
+                        data-id="c74e3c1"
                         data-element_type="column"
                       >
                         <div
                           class="elementor-widget-wrap elementor-element-populated"
                         >
-                          <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-c89aa6e elementor-section-full_width elementor-section-height-min-height elementor-section-height-default"
-                            data-id="c89aa6e"
-                            data-element_type="section"
-                            data-settings='{"background_background":"classic"}'
+                          <div
+                            class="elementor-element elementor-element-90fa0dd elementor-widget elementor-widget-marity_core_tabs"
+                            data-id="90fa0dd"
+                            data-element_type="widget"
+                            data-widget_type="marity_core_tabs.default"
                           >
-                            <div
-                              class="elementor-container elementor-column-gap-no"
-                            >
+                            <div class="elementor-widget-container">
                               <div
-                                class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-5e41cb2"
-                                data-id="5e41cb2"
-                                data-element_type="column"
+                                class="qodef-shortcode qodef-m qodef-tabs clear qodef-orientation--horizontal qodef-layout--simple"
                               >
-                                <div class="elementor-widget-wrap"></div>
-                              </div>
-                            </div>
-                          </section>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-                  <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-9a69f0d elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                    data-id="9a69f0d"
-                    data-element_type="section"
-                  >
-                    <div class="elementor-container elementor-column-gap-no">
-                      <div
-                        class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-dd762e8"
-                        data-id="dd762e8"
-                        data-element_type="column"
-                      >
-                        <div
-                          class="elementor-widget-wrap elementor-element-populated"
-                        >
-                          <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-627df27 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                            data-id="627df27"
-                            data-element_type="section"
-                          >
-                            <div
-                              class="elementor-container elementor-column-gap-no"
-                            >
-                              <div
-                                class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-59fc31f"
-                                data-id="59fc31f"
-                                data-element_type="column"
-                              >
+                                <ul class="qodef-tabs-navigation">
+                                  <li>
+                                    <a href="#qodef-tab-norway">
+                                      <span class="qodef-tabs-anchor-count"
+                                        >01</span
+                                      >
+                                      <span class="qodef-tabs-anchor-text"
+                                        >Norway</span
+                                      >
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="#qodef-tab-sweden">
+                                      <span class="qodef-tabs-anchor-count"
+                                        >02</span
+                                      >
+                                      <span class="qodef-tabs-anchor-text"
+                                        >Sweden</span
+                                      >
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="#qodef-tab-scotland">
+                                      <span class="qodef-tabs-anchor-count"
+                                        >03</span
+                                      >
+                                      <span class="qodef-tabs-anchor-text"
+                                        >Scotland</span
+                                      >
+                                    </a>
+                                  </li>
+                                </ul>
+
                                 <div
-                                  class="elementor-widget-wrap elementor-element-populated"
+                                  class="qodef-tabs-content qodef-tabs-with-images qodef-tabs-image-one qodef-tabs-image-two"
+                                  id="qodef-tab-norway-148"
                                 >
-                                  <div
-                                    class="elementor-element elementor-element-54e5b67 elementor-widget elementor-widget-marity_core_section_title"
-                                    data-id="54e5b67"
-                                    data-element_type="widget"
-                                    data-widget_type="marity_core_section_title.default"
-                                  >
-                                    <div class="elementor-widget-container">
-                                      <div
-                                        class="qodef-shortcode qodef-m qodef-section-title qodef-show_supertitle--no qodef-alignment--left"
+                                  <div class="qodef-tabs-content-inner">
+                                    <h5 style="margin-bottom: 15px">
+                                      Oslo, General Office
+                                    </h5>
+                                    <div style="margin-bottom: 10px">
+                                      <a
+                                        href="https://www.google.com/maps/place/Munkedamsveien+21,+0250+Oslo,+Norway/@59.9131523,10.7256358,17z/data=!3m1!4b1!4m5!3m4!1s0x46416e8087e7aacd:0xbc66dc5986b521ef!8m2!3d59.9131496!4d10.7278245"
+                                        target="_blank"
+                                        >Munkengveien 21 175 <br />
+                                        0376 Oslo</a
                                       >
-                                        <!-- <h6 class="qodef-m-title">our team</h6> -->
-                                      </div>
                                     </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </section>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-                  <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-0535ffa elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                    data-id="0535ffa"
-                    data-element_type="section"
-                    data-settings='{"background_background":"classic"}'
-                  >
-                    <div class="elementor-background-overlay"></div>
-                    <div class="elementor-container elementor-column-gap-no">
-                      <div
-                        class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e48ab65"
-                        data-id="e48ab65"
-                        data-element_type="column"
-                      >
-                        <div
-                          class="elementor-widget-wrap elementor-element-populated"
-                        >
-                          <div
-                            class="elementor-element elementor-element-afa5333 elementor-widget elementor-widget-marity_core_section_title"
-                            data-id="afa5333"
-                            data-element_type="widget"
-                            data-widget_type="marity_core_section_title.default"
-                          >
-                            <div class="elementor-widget-container">
-                              <div
-                                class="qodef-shortcode qodef-m qodef-section-title qodef-show_supertitle--no qodef-alignment--left"
-                              >
-                                <h1 class="qodef-m-title">
-About Us
-                                </h1><br>
-							<h2 class="qodef-m-title">
-                                  Our Mission
-                                </h2>
-                                <p
-                                  class="qodef-m-text"
-                                  style="margin-top: 37px"
-                                >
-                                  
-							We believe that prevention is the most powerful weapon in the fight against cancer. 
-							Our organization is dedicated to reducing cancer incidence through education, early 
-							detection programs, and community outreach initiatives that empower individuals to 
-							take control of their health. We strive to make cancer prevention accessible to everyone, 
-							regardless of their economic background, by providing free screenings, awareness campaigns, 
-							and support services to underserved communities.<br>
+                                    <div>
+                                      <a href="tel:012345678">01-234 56 78</a>
+                                    </div>
 
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            class="elementor-element elementor-element-05a2536 elementor-widget elementor-widget-marity_core_section_title"
-                            data-id="05a2536"
-                            data-element_type="widget"
-                            data-widget_type="marity_core_section_title.default"
-                          >
-                            <div class="elementor-widget-container">
-                              <div
-                                class="qodef-shortcode qodef-m qodef-section-title qodef-show_supertitle--no qodef-alignment--left"
-                              >
-                                <p class="qodef-m-text">
-                                  <!-- Erat pellentesque adipiscing commodo elit at.
-                                  Neque convallis a cras semper auctor neque
-                                  vitae tempus.Eu lobortis elementum nibh tellus
-                                  molestie nunc non blandit massa. Diam
-                                  phasellus vestibulum lorem sed risus ultricies
-                                  tristique nulla. Magna ac placerat vestibulum
-                                  lectus mauris ultrices eros. Ultrices sagittis
-                                  orcim a scelerisque purus semper eget duis. -->
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-de949d5"
-                        data-id="de949d5"
-                        data-element_type="column"
-                      >
-                        <div
-                          class="elementor-widget-wrap elementor-element-populated"
-                        >
-                          <div
-                            class="elementor-element elementor-element-d6b3027 elementor-widget__width-auto elementor-widget elementor-widget-marity_core_single_image"
-                            data-id="d6b3027"
-                            data-element_type="widget"
-                            data-widget_type="marity_core_single_image.default"
-                          >
-                            <div class="elementor-widget-container">
-                              <div
-                                class="qodef-shortcode qodef-m qodef-single-image qodef-layout--default qodef--morph-mask"
-                                style="
-                                  --qodef--morph-shape-position-x: 2%;
-                                  --qodef--morph-shape-scale-x: 1.4;
-                                "
-                              >
-                                <div
-                                  class="qodef-svg-morph-holder qodef-type-1"
-                                >
-                                  <svg
-                                    class="qodef-svg--clip-morph-shape-1"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="1059.2"
-                                    height="1059.2"
-                                    viewBox="0 0 1059.2 1059.2"
-                                  >
-                                    <clipPath
-                                      id="marity-1-861"
-                                      clipPathUnits="objectBoundingBox"
+                                    <h5
+                                      style="
+                                        margin-bottom: 15px;
+                                        margin-top: 40px;
+                                      "
                                     >
-                                      <path
-                                        d="M293.4 1054.6c151.2 16.3 190.8-118 307.3-130.9 61.7-6.9 133.6 22 200.1 30.1 274.5 33.6 350.5-435.6 114.1-655.2-62.6-58.2-171.6-106.5-246.4-127.6C455 110.9 80.3-133 7.2 96.5c-22.7 71.8 13.3 254.5 43 336.6C118 619.2 33.7 852 144.5 976.9a241 241 0 0 0 148.9 77.7Z"
-                                      />
-                                      <path
-                                        d="M282.5 1042.6c149 16.2 169-140.3 283.7-153.3 60.8-6.8 123.5 38 189 46.1 262 40 418.4-457.7 174.3-655-61.7-58.3-207-70-280.6-91.1-210.2-60.3-538.5-297-610.4-67.1-22.5 71.9 12 227.3 41.4 309.4 66.6 186.5-75.6 394.7 33.4 519.8 39.1 44.9 118.7 85.6 169.4 91.2Z"
-                                      />
-                                      <path
-                                        d="M267.9 1054.3c148.7 17.4 135-158 249.7-171.7 60.6-7.4 182.1 26.5 247.6 35.2 261.5 42.7 415.6-511.7 171.8-722.2-61.7-62.2-250 4.4-323.6-18.1-209.9-64.3-405.4-224-543.2-60.8-47 80-4.4 216.3 25 304 66.5 198.8-53 307.2 24.9 497 27 81.1 97.2 130.7 147.8 136.6Z"
-                                      />
-                                    </clipPath>
-                                  </svg>
-                                </div>
-                                <div class="qodef-m-image">
-                                  <img
-                                    fetchpriority="high"
-                                    fetchpriority="high"
-                                    decoding="async"
-                                    width="900"
-                                    height="827"
-                                    src="https://marity.qodeinteractive.com/wp-content/uploads/2022/12/about-us-img-2-new.jpg"
-                                    class="attachment-full size-full"
-                                    alt="w"
-                                    srcset="
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/12/about-us-img-2-new.jpg         900w,
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/12/about-us-img-2-new-300x276.jpg 300w,
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/12/about-us-img-2-new-600x551.jpg 600w,
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/12/about-us-img-2-new-768x706.jpg 768w
-                                    "
-                                    sizes="(max-width: 900px) 100vw, 900px"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-                  <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-4d5d291 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                    data-id="4d5d291"
-                    data-element_type="section"
-                  >
-                    <div class="elementor-container elementor-column-gap-no">
-                      <div
-                        class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0b5fe38"
-                        data-id="0b5fe38"
-                        data-element_type="column"
-                      >
-                        <div
-                          class="elementor-widget-wrap elementor-element-populated"
-                        >
-                          <div
-                            class="elementor-element elementor-element-4fd31aa elementor-widget elementor-widget-marity_core_single_image"
-                            data-id="4fd31aa"
-                            data-element_type="widget"
-                            data-widget_type="marity_core_single_image.default"
-                          >
-                            <div class="elementor-widget-container">
-                              <div
-                                class="qodef-shortcode qodef-m qodef-single-image qodef-layout--default qodef--morph-mask"
-                                style="--qodef--morph-shape-position-x: -11%"
-                              >
-                                <div
-                                  class="qodef-svg-morph-holder qodef-type-1"
-                                >
-                                  <svg
-                                    class="qodef-svg--clip-morph-shape-1"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="1059.2"
-                                    height="1059.2"
-                                    viewBox="0 0 1059.2 1059.2"
-                                  >
-                                    <clipPath
-                                      id="marity-2-244"
-                                      clipPathUnits="objectBoundingBox"
-                                    >
-                                      <path
-                                        d="M293.4 1054.6c151.2 16.3 190.8-118 307.3-130.9 61.7-6.9 133.6 22 200.1 30.1 274.5 33.6 350.5-435.6 114.1-655.2-62.6-58.2-171.6-106.5-246.4-127.6C455 110.9 80.3-133 7.2 96.5c-22.7 71.8 13.3 254.5 43 336.6C118 619.2 33.7 852 144.5 976.9a241 241 0 0 0 148.9 77.7Z"
-                                      />
-                                      <path
-                                        d="M282.5 1042.6c149 16.2 169-140.3 283.7-153.3 60.8-6.8 123.5 38 189 46.1 262 40 418.4-457.7 174.3-655-61.7-58.3-207-70-280.6-91.1-210.2-60.3-538.5-297-610.4-67.1-22.5 71.9 12 227.3 41.4 309.4 66.6 186.5-75.6 394.7 33.4 519.8 39.1 44.9 118.7 85.6 169.4 91.2Z"
-                                      />
-                                      <path
-                                        d="M267.9 1054.3c148.7 17.4 135-158 249.7-171.7 60.6-7.4 182.1 26.5 247.6 35.2 261.5 42.7 415.6-511.7 171.8-722.2-61.7-62.2-250 4.4-323.6-18.1-209.9-64.3-405.4-224-543.2-60.8-47 80-4.4 216.3 25 304 66.5 198.8-53 307.2 24.9 497 27 81.1 97.2 130.7 147.8 136.6Z"
-                                      />
-                                    </clipPath>
-                                  </svg>
-                                </div>
-                                <div class="qodef-m-image">
-                                  <img
-                                    decoding="async"
-                                    width="1400"
-                                    height="1047"
-                                    src="https://marity.qodeinteractive.com/wp-content/uploads/2022/12/about-us-img-3-new.jpg"
-                                    class="attachment-full size-full"
-                                    alt=""
-                                    srcset="
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/12/about-us-img-3-new.jpg          1400w,
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/12/about-us-img-3-new-300x224.jpg   300w,
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/12/about-us-img-3-new-600x449.jpg   600w,
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/12/about-us-img-3-new-1024x766.jpg 1024w,
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/12/about-us-img-3-new-768x574.jpg   768w
-                                    "
-                                    sizes="(max-width: 1400px) 100vw, 1400px"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1033445"
-                        data-id="1033445"
-                        data-element_type="column"
-                      >
-                        <div
-                          class="elementor-widget-wrap elementor-element-populated"
-                        >
-                          <div
-                            class="elementor-element elementor-element-ad59f7d elementor-widget elementor-widget-marity_core_section_title"
-                            data-id="ad59f7d"
-                            data-element_type="widget"
-                            data-widget_type="marity_core_section_title.default"
-                          >
-                            <div class="elementor-widget-container">
-                              <div
-                                class="qodef-shortcode qodef-m qodef-section-title qodef-show_supertitle--no qodef-alignment--left"
-                              >
-                                <h2 class="qodef-m-title">
-                                  Our Vision
-                                </h2>
-                                <p
-                                  class="qodef-m-text"
-                                  style="margin-top: 40px">
-                                We envision a world where everyone has access to the knowledge, resources, and medical 
-								care needed to prevent cancer. A world where zip codes and bank balances don't determine 
-								health outcomes. A world where communities are empowered to protect themselves and their 
-								loved ones from this devastating disease. Through sustained effort, collaboration, and 
-								compassion, we believe we can create a future where cancer is caught early or prevented altogether.
-                                  
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- <div
-                            class="elementor-element elementor-element-beb9081 elementor-widget elementor-widget-marity_core_icon_list_item"
-                            data-id="beb9081"
-                            data-element_type="widget"
-                            data-widget_type="marity_core_icon_list_item.default"
-                          >
-                            <div class="elementor-widget-container">
-                              <div
-                                class="qodef-icon-list-item qodef-icon--custom-icon"
-                              >
-                                <p class="qodef-e-title">
-                                  <span class="qodef-e-title-inner">
-                                    <img
-                                      decoding="async"
-                                      width="8"
-                                      height="9"
-                                      src="https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-2-icon.png"
-                                      class="attachment-full size-full"
-                                      alt="w"
-                                    />
-                                    <span
-                                      class="qodef-e-title-text"
-                                      style="margin: 0px 0px 0px 15px"
-                                      > Agam fierent inciderint id</span
-                                    >
-                                  </span>
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            class="elementor-element elementor-element-f3ccb27 elementor-widget elementor-widget-marity_core_icon_list_item"
-                            data-id="f3ccb27"
-                            data-element_type="widget"
-                            data-widget_type="marity_core_icon_list_item.default"
-                          >
-                            <div class="elementor-widget-container">
-                              <div
-                                class="qodef-icon-list-item qodef-icon--custom-icon"
-                              >
-                                <p class="qodef-e-title">
-                                  <span class="qodef-e-title-inner">
-                                    <img
-                                      decoding="async"
-                                      width="8"
-                                      height="9"
-                                      src="https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-2-icon.png"
-                                      class="attachment-full size-full"
-                                      alt="w"
-                                    />
-                                    <span
-                                      class="qodef-e-title-text"
-                                      style="margin: 0px 0px 0px 15px"
-                                      >Similique temporibus</span
-                                    >
-                                  </span>
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            class="elementor-element elementor-element-47ac2b3 elementor-widget elementor-widget-marity_core_icon_list_item"
-                            data-id="47ac2b3"
-                            data-element_type="widget"
-                            data-widget_type="marity_core_icon_list_item.default"
-                          >
-                            <div class="elementor-widget-container">
-                              <div
-                                class="qodef-icon-list-item qodef-icon--custom-icon"
-                              >
-                                <p class="qodef-e-title">
-                                  <span class="qodef-e-title-inner">
-                                    <img
-                                      decoding="async"
-                                      width="8"
-                                      height="9"
-                                      src="https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-2-icon.png"
-                                      class="attachment-full size-full"
-                                      alt="w"
-                                    />
-                                    <span
-                                      class="qodef-e-title-text"
-                                      style="margin: 0px 0px 0px 15px"
-                                      >Agam fierent inciderint eum</span
-                                    >
-                                  </span>
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            class="elementor-element elementor-element-6b90c3d elementor-widget elementor-widget-marity_core_icon_list_item"
-                            data-id="6b90c3d"
-                            data-element_type="widget"
-                            data-widget_type="marity_core_icon_list_item.default"
-                          >
-                            <div class="elementor-widget-container">
-                              <div
-                                class="qodef-icon-list-item qodef-icon--custom-icon"
-                              >
-                                <p class="qodef-e-title">
-                                  <span class="qodef-e-title-inner">
-                                    <img
-                                      decoding="async"
-                                      width="8"
-                                      height="9"
-                                      src="https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-2-icon.png"
-                                      class="attachment-full size-full"
-                                      alt="w"
-                                    />
-                                    <span
-                                      class="qodef-e-title-text"
-                                      style="margin: 0px 0px 0px 15px"
-                                      >Ancillae dissentiet</span
-                                    >
-                                  </span>
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div> -->
-                  </section>
-                  <!-- <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-0d9e209 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                    data-id="0d9e209"
-                    data-element_type="section"
-                  >
-                    <div class="elementor-container elementor-column-gap-no">
-                      <div
-                        class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-df1f889"
-                        data-id="df1f889"
-                        data-element_type="column"
-                      >
-                        <div
-                          class="elementor-widget-wrap elementor-element-populated"
-                        >
-                          <div
-                            class="elementor-element elementor-element-5499250 elementor-widget elementor-widget-marity_core_video_button"
-                            data-id="5499250"
-                            data-element_type="widget"
-                            data-widget_type="marity_core_video_button.default"
-                          >
-                            <div class="elementor-widget-container">
-                              <div
-                                class="qodef-shortcode qodef-m qodef-video-button qodef--has-img qodef-title-break--disabled"
-                              >
-                                <div class="qodef-m-image">
-                                  <img
-                                    loading="lazy"
-                                    loading="lazy"
-                                    decoding="async"
-                                    width="2500"
-                                    height="997"
-                                    src="https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-video.jpg"
-                                    class="attachment-full size-full"
-                                    alt=""
-                                    style="min-height: 500px; object-fit: cover"
-                                    srcset="
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-video.jpg          2500w,
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-video-300x120.jpg   300w,
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-video-600x239.jpg   600w,
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-video-1024x408.jpg 1024w,
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-video-768x306.jpg   768w,
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-video-1536x613.jpg 1536w,
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-video-2048x817.jpg 2048w
-                                    "
-                                    sizes="(max-width: 2500px) 100vw, 2500px"
-                                  />
-                                </div>
-                                <a
-                                  itemprop="url"
-                                  class="qodef-m-play qodef-magnific-popup qodef-popup-item"
-                                  href="https://vimeo.com/225211959"
-                                  data-type="iframe"
-                                >
-                                  <span class="qodef-m-play-holder">
-                                    <span class="qodef-e-text"
-                                      >World's leading research institute, with
-                                      a<br />
-                                      team of experts and scientists devoted<br />
-                                      to development of new discoveries in the
-                                      field<br />
-                                      of translational and clinical
-                                      neuroscience.</span
-                                    >
-                                    <span class="qodef-play-btn-holder">
-                                      <span class="qodef-m-play-inner">
-                                        <svg
-                                          class="qodef-svg--play"
-                                          xmlns="http://www.w3.org/2000/svg"
-                                          width="14"
-                                          height="15"
-                                          viewBox="0 0 14 15"
-                                        >
-                                          <path
-                                            fill="currentColor"
-                                            d="M14 7.5 0 15V0l14 7.5z"
-                                          />
-                                        </svg>
-                                      </span>
-                                      <span class="qodef-m-play-text"
-                                        >Play Video</span
+                                      Stavanger Office
+                                    </h5>
+                                    <div style="margin-bottom: 10px">
+                                      <a
+                                        href="https://www.google.com/maps/place/Munkedamsveien+21,+0250+Oslo,+Norway/@59.9131523,10.7256358,17z/data=!3m1!4b1!4m5!3m4!1s0x46416e8087e7aacd:0xbc66dc5986b521ef!8m2!3d59.9131496!4d10.7278245"
+                                        target="_blank"
+                                        >Munkengveien 21 175 <br />
+                                        0376 Oslo</a
                                       >
-                                    </span>
-                                  </span>
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-                  <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-1dbb95f elementor-section-full_width qodef-elementor-content-grid elementor-section-height-default elementor-section-height-default"
-                    data-id="1dbb95f"
-                    data-element_type="section"
-                  >
-                    <div class="elementor-container elementor-column-gap-no">
-                      <div
-                        class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b690304"
-                        data-id="b690304"
-                        data-element_type="column"
-                      >
-                        <div
-                          class="elementor-widget-wrap elementor-element-populated"
-                        >
-                          <div
-                            class="elementor-element elementor-element-72b47bb elementor-widget elementor-widget-marity_core_testimonials_list"
-                            data-id="72b47bb"
-                            data-element_type="widget"
-                            data-widget_type="marity_core_testimonials_list.default"
-                          >
-                            <div class="elementor-widget-container">
-                              <div
-                                class="qodef-shortcode qodef-m qodef-testimonials-list qodef-grid qodef-swiper-container qodef-gutter--normal qodef-col-num--1 qodef-item-layout--info-below qodef-responsive--predefined"
-                                data-options='{"slidesPerView":"1","spaceBetween":30,"loop":true,"autoplay":true,"speed":"","speedAnimation":"","slideAnimation":"","direction":"","centeredSlides":"","sliderScroll":"","loopAdditionalSlides":"","outsideNavigation":"yes","unique":485}'
-                              >
-                                <div class="swiper-wrapper">
-                                  <div class="qodef-e swiper-slide">
-                                    <div class="qodef-e-inner">
-                                      <div class="qodef-e-content">
-                                        <div
-                                          class="qodef-e-testimonials-image-holder"
-                                        >
-                                          <div class="qodef-e-media-image">
-                                            <img
-                                              loading="lazy"
-                                              loading="lazy"
-                                              decoding="async"
-                                              width="250"
-                                              height="250"
-                                              src="https://marity.qodeinteractive.com/wp-content/uploads/2022/10/testimonials-img-3.png"
-                                              class="attachment-full size-full wp-post-image"
-                                              alt="w"
-                                              srcset="
-                                                https://marity.qodeinteractive.com/wp-content/uploads/2022/10/testimonials-img-3.png         250w,
-                                                https://marity.qodeinteractive.com/wp-content/uploads/2022/10/testimonials-img-3-100x100.png 100w,
-                                                https://marity.qodeinteractive.com/wp-content/uploads/2022/10/testimonials-img-3-150x150.png 150w
-                                              "
-                                              sizes="(max-width: 250px) 100vw, 250px"
-                                            />
-                                          </div>
-                                        </div>
-                                        <div class="qodef-e-content-inner">
-                                          <h4
-                                            itemprop="description"
-                                            class="qodef-e-text"
-                                          >
-                                            Doctus propriae erroribus an eam,
-                                            mel agam modus civibus et, vim solet
-                                            dissentiet cu velit sanctus mei.
-                                          </h4>
+                                    </div>
+                                    <div>
+                                      <a href="tel:012345678">01-234 56 78</a>
+                                    </div>
+                                  </div>
+                                  <div class="qodef-tabs-content-images-inner">
+                                    <div class="qodef-image-holder qodef-one">
+                                      <img
+                                        fetchpriority="high"
+                                        fetchpriority="high"
+                                        decoding="async"
+                                        width="900"
+                                        height="638"
+                                        src="https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-1.jpg"
+                                        class="qodef-tab-image-one"
+                                        alt="w"
+                                        srcset="
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-1.jpg         900w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-1-300x213.jpg 300w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-1-600x425.jpg 600w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-1-768x544.jpg 768w
+                                        "
+                                        sizes="(max-width: 900px) 100vw, 900px"
+                                      />
+                                    </div>
 
-                                          <span class="qodef-e-author-job"
-                                            >Principal Scientist, Translational
-                                            Biology</span
-                                          >
-                                        </div>
-                                        <div class="qodef-e-testimonials-svg">
-                                          <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="117.624"
-                                            height="105.4561"
-                                            viewBox="0 0 117.624 105.4561"
-                                          >
-                                            <defs>
-                                              <style>
-                                                .qode-testimonials-svg {
-                                                  fill: #eee;
-                                                }
-                                              </style>
-                                            </defs>
-                                            <title>quote</title>
-                                            <path
-                                              class="qode-testimonials-svg"
-                                              d="M52.0522,0V17.5757H49.01q-10.8215,0-17.2383,3.7183a21.2111,21.2111,0,0,0-9.2949,11.6611Q19.6016,40.9,19.604,53.0659v25.35l-8.1118-15.21a19.519,19.519,0,0,1,6.2529-2.0283,44.4771,44.4771,0,0,1,7.605-.6758,21.9952,21.9952,0,0,1,15.7173,5.915q6.25,5.9172,6.2529,16.3931,0,9.8071-5.915,16.2236-5.918,6.4248-16.0552,6.4224a25.631,25.631,0,0,1-12.168-3.042q-5.751-3.0425-9.4639-10.8164Q-.0054,83.8267,0,69.29V62.1919Q0,37.5232,6.084,23.998,12.1682,10.4827,23.3223,5.2388,34.4763.0027,49.686,0ZM117.624,0V17.5757h-3.042q-10.8208,0-17.2378,3.7183a21.2069,21.2069,0,0,0-9.2949,11.6611Q85.1738,40.9,85.1763,53.0659v25.35l-8.1123-15.21a19.5223,19.5223,0,0,1,6.2534-2.0283,44.4685,44.4685,0,0,1,7.605-.6758,21.9948,21.9948,0,0,1,15.7168,5.915q6.25,5.9172,6.2529,16.3931,0,9.8071-5.915,16.2236-5.9172,6.4248-16.0547,6.4224a25.63,25.63,0,0,1-12.168-3.042Q73.0027,99.3716,69.29,91.5977q-3.7229-7.771-3.7178-22.3076V62.1919q0-24.6687,6.084-38.1938Q77.74,10.4827,88.894,5.2388,100.0481.0027,115.2583,0Z"
-                                            />
-                                          </svg>
-                                        </div>
-                                      </div>
+                                    <div class="qodef-image-holder qodef-two">
+                                      <img
+                                        decoding="async"
+                                        width="900"
+                                        height="638"
+                                        src="https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-2.jpg"
+                                        class="qodef-tab-image-two"
+                                        alt="w"
+                                        srcset="
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-2.jpg         900w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-2-300x213.jpg 300w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-2-600x425.jpg 600w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-2-768x544.jpg 768w
+                                        "
+                                        sizes="(max-width: 900px) 100vw, 900px"
+                                      />
                                     </div>
                                   </div>
-                                  <div class="qodef-e swiper-slide">
-                                    <div class="qodef-e-inner">
-                                      <div class="qodef-e-content">
-                                        <div
-                                          class="qodef-e-testimonials-image-holder"
-                                        >
-                                          <div class="qodef-e-media-image">
-                                            <img
-                                              loading="lazy"
-                                              loading="lazy"
-                                              decoding="async"
-                                              width="250"
-                                              height="250"
-                                              src="https://marity.qodeinteractive.com/wp-content/uploads/2022/10/testimonials-img-2.png"
-                                              class="attachment-full size-full wp-post-image"
-                                              alt="w"
-                                              srcset="
-                                                https://marity.qodeinteractive.com/wp-content/uploads/2022/10/testimonials-img-2.png         250w,
-                                                https://marity.qodeinteractive.com/wp-content/uploads/2022/10/testimonials-img-2-100x100.png 100w,
-                                                https://marity.qodeinteractive.com/wp-content/uploads/2022/10/testimonials-img-2-150x150.png 150w
-                                              "
-                                              sizes="(max-width: 250px) 100vw, 250px"
-                                            />
-                                          </div>
-                                        </div>
-                                        <div class="qodef-e-content-inner">
-                                          <h4
-                                            itemprop="description"
-                                            class="qodef-e-text"
-                                          >
-                                            Doctus propriae erroribus an eam,
-                                            mel agam modus civibus et, vim solet
-                                            dissentiet cu velit sanctus mei.
-                                          </h4>
+                                </div>
 
-                                          <span class="qodef-e-author-job"
-                                            >PRINCIPAL SCIENTIST, TRANSLATIONAL
-                                            BIOLOGY</span
-                                          >
-                                        </div>
-                                        <div class="qodef-e-testimonials-svg">
-                                          <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="117.624"
-                                            height="105.4561"
-                                            viewBox="0 0 117.624 105.4561"
-                                          >
-                                            <defs>
-                                              <style>
-                                                .qode-testimonials-svg {
-                                                  fill: #eee;
-                                                }
-                                              </style>
-                                            </defs>
-                                            <title>quote</title>
-                                            <path
-                                              class="qode-testimonials-svg"
-                                              d="M52.0522,0V17.5757H49.01q-10.8215,0-17.2383,3.7183a21.2111,21.2111,0,0,0-9.2949,11.6611Q19.6016,40.9,19.604,53.0659v25.35l-8.1118-15.21a19.519,19.519,0,0,1,6.2529-2.0283,44.4771,44.4771,0,0,1,7.605-.6758,21.9952,21.9952,0,0,1,15.7173,5.915q6.25,5.9172,6.2529,16.3931,0,9.8071-5.915,16.2236-5.918,6.4248-16.0552,6.4224a25.631,25.631,0,0,1-12.168-3.042q-5.751-3.0425-9.4639-10.8164Q-.0054,83.8267,0,69.29V62.1919Q0,37.5232,6.084,23.998,12.1682,10.4827,23.3223,5.2388,34.4763.0027,49.686,0ZM117.624,0V17.5757h-3.042q-10.8208,0-17.2378,3.7183a21.2069,21.2069,0,0,0-9.2949,11.6611Q85.1738,40.9,85.1763,53.0659v25.35l-8.1123-15.21a19.5223,19.5223,0,0,1,6.2534-2.0283,44.4685,44.4685,0,0,1,7.605-.6758,21.9948,21.9948,0,0,1,15.7168,5.915q6.25,5.9172,6.2529,16.3931,0,9.8071-5.915,16.2236-5.9172,6.4248-16.0547,6.4224a25.63,25.63,0,0,1-12.168-3.042Q73.0027,99.3716,69.29,91.5977q-3.7229-7.771-3.7178-22.3076V62.1919q0-24.6687,6.084-38.1938Q77.74,10.4827,88.894,5.2388,100.0481.0027,115.2583,0Z"
-                                            />
-                                          </svg>
-                                        </div>
-                                      </div>
+                                <div
+                                  class="qodef-tabs-content qodef-tabs-with-images qodef-tabs-image-one qodef-tabs-image-two"
+                                  id="qodef-tab-sweden-587"
+                                >
+                                  <div class="qodef-tabs-content-inner">
+                                    <h5 style="margin-bottom: 15px">
+                                      Stockholm, General Office
+                                    </h5>
+                                    <div style="margin-bottom: 10px">
+                                      <a
+                                        href="https://www.google.com/maps/place/Munkedamsveien+21,+0250+Oslo,+Norway/@59.9131523,10.7256358,17z/data=!3m1!4b1!4m5!3m4!1s0x46416e8087e7aacd:0xbc66dc5986b521ef!8m2!3d59.9131496!4d10.7278245"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >Munkengveien 21 175 <br />
+                                        0376 Oslo</a
+                                      >
+                                    </div>
+                                    <div>
+                                      <a href="tel:012345678">01-234 56 78</a>
+                                    </div>
+                                    <h5
+                                      style="
+                                        margin-bottom: 15px;
+                                        margin-top: 40px;
+                                      "
+                                    >
+                                      Malmö Office
+                                    </h5>
+                                    <div style="margin-bottom: 10px">
+                                      <a
+                                        href="https://www.google.com/maps/place/Munkedamsveien+21,+0250+Oslo,+Norway/@59.9131523,10.7256358,17z/data=!3m1!4b1!4m5!3m4!1s0x46416e8087e7aacd:0xbc66dc5986b521ef!8m2!3d59.9131496!4d10.7278245"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >Munkengveien 21 175 <br />
+                                        0376 Oslo</a
+                                      >
+                                    </div>
+                                    <div>
+                                      <a href="tel:012345678">01-234 56 78</a>
                                     </div>
                                   </div>
-                                  <div class="qodef-e swiper-slide">
-                                    <div class="qodef-e-inner">
-                                      <div class="qodef-e-content">
-                                        <div
-                                          class="qodef-e-testimonials-image-holder"
-                                        >
-                                          <div class="qodef-e-media-image">
-                                            <img
-                                              loading="lazy"
-                                              loading="lazy"
-                                              decoding="async"
-                                              width="250"
-                                              height="250"
-                                              src="https://marity.qodeinteractive.com/wp-content/uploads/2022/10/testimonials-img-1.png"
-                                              class="attachment-full size-full wp-post-image"
-                                              alt="w"
-                                              srcset="
-                                                https://marity.qodeinteractive.com/wp-content/uploads/2022/10/testimonials-img-1.png         250w,
-                                                https://marity.qodeinteractive.com/wp-content/uploads/2022/10/testimonials-img-1-100x100.png 100w,
-                                                https://marity.qodeinteractive.com/wp-content/uploads/2022/10/testimonials-img-1-150x150.png 150w
-                                              "
-                                              sizes="(max-width: 250px) 100vw, 250px"
-                                            />
-                                          </div>
-                                        </div>
-                                        <div class="qodef-e-content-inner">
-                                          <h4
-                                            itemprop="description"
-                                            class="qodef-e-text"
-                                          >
-                                            Doctus propriae erroribus an eam,
-                                            mel agam modus civibus et, vim solet
-                                            dissentiet cu velit sanctus mei.
-                                          </h4>
+                                  <div class="qodef-tabs-content-images-inner">
+                                    <div class="qodef-image-holder qodef-one">
+                                      <img
+                                        decoding="async"
+                                        width="900"
+                                        height="638"
+                                        src="https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-3.jpg"
+                                        class="qodef-tab-image-one"
+                                        alt="w"
+                                        srcset="
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-3.jpg         900w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-3-300x213.jpg 300w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-3-600x425.jpg 600w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-3-768x544.jpg 768w
+                                        "
+                                        sizes="(max-width: 900px) 100vw, 900px"
+                                      />
+                                    </div>
 
-                                          <span class="qodef-e-author-job"
-                                            >Principal Scientist, Translational
-                                            Biology</span
-                                          >
-                                        </div>
-                                        <div class="qodef-e-testimonials-svg">
-                                          <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="117.624"
-                                            height="105.4561"
-                                            viewBox="0 0 117.624 105.4561"
-                                          >
-                                            <defs>
-                                              <style>
-                                                .qode-testimonials-svg {
-                                                  fill: #eee;
-                                                }
-                                              </style>
-                                            </defs>
-                                            <title>quote</title>
-                                            <path
-                                              class="qode-testimonials-svg"
-                                              d="M52.0522,0V17.5757H49.01q-10.8215,0-17.2383,3.7183a21.2111,21.2111,0,0,0-9.2949,11.6611Q19.6016,40.9,19.604,53.0659v25.35l-8.1118-15.21a19.519,19.519,0,0,1,6.2529-2.0283,44.4771,44.4771,0,0,1,7.605-.6758,21.9952,21.9952,0,0,1,15.7173,5.915q6.25,5.9172,6.2529,16.3931,0,9.8071-5.915,16.2236-5.918,6.4248-16.0552,6.4224a25.631,25.631,0,0,1-12.168-3.042q-5.751-3.0425-9.4639-10.8164Q-.0054,83.8267,0,69.29V62.1919Q0,37.5232,6.084,23.998,12.1682,10.4827,23.3223,5.2388,34.4763.0027,49.686,0ZM117.624,0V17.5757h-3.042q-10.8208,0-17.2378,3.7183a21.2069,21.2069,0,0,0-9.2949,11.6611Q85.1738,40.9,85.1763,53.0659v25.35l-8.1123-15.21a19.5223,19.5223,0,0,1,6.2534-2.0283,44.4685,44.4685,0,0,1,7.605-.6758,21.9948,21.9948,0,0,1,15.7168,5.915q6.25,5.9172,6.2529,16.3931,0,9.8071-5.915,16.2236-5.9172,6.4248-16.0547,6.4224a25.63,25.63,0,0,1-12.168-3.042Q73.0027,99.3716,69.29,91.5977q-3.7229-7.771-3.7178-22.3076V62.1919q0-24.6687,6.084-38.1938Q77.74,10.4827,88.894,5.2388,100.0481.0027,115.2583,0Z"
-                                            />
-                                          </svg>
-                                        </div>
-                                      </div>
+                                    <div class="qodef-image-holder qodef-two">
+                                      <img
+                                        loading="lazy"
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="900"
+                                        height="638"
+                                        src="https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-4.jpg"
+                                        class="qodef-tab-image-two"
+                                        alt="w"
+                                        srcset="
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-4.jpg         900w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-4-300x213.jpg 300w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-4-600x425.jpg 600w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-4-768x544.jpg 768w
+                                        "
+                                        sizes="(max-width: 900px) 100vw, 900px"
+                                      />
                                     </div>
                                   </div>
                                 </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-                  <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-7ad7d53 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                    data-id="7ad7d53"
-                    data-element_type="section"
-                  >
-                    <div class="elementor-container elementor-column-gap-no">
-                      <div
-                        class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4614e82"
-                        data-id="4614e82"
-                        data-element_type="column"
-                      >
-                        <div
-                          class="elementor-widget-wrap elementor-element-populated"
-                        >
-                          <div
-                            class="elementor-element elementor-element-54a2ecd elementor-widget elementor-widget-marity_core_masonry_gallery_list"
-                            data-id="54a2ecd"
-                            data-element_type="widget"
-                            data-widget_type="marity_core_masonry_gallery_list.default"
-                          >
-                            <div class="elementor-widget-container">
-                              <div
-                                class="qodef-shortcode qodef-m qodef-masonry-gallery-list qodef-grid qodef-layout--masonry qodef-items--fixed qodef-gutter--tiny qodef-col-num--3 qodef-responsive--custom qodef-col-num--1440--3 qodef-col-num--1366--3 qodef-col-num--1024--3 qodef-col-num--768--1 qodef-col-num--680--1 qodef-col-num--480--1"
-                              >
-                                <div class="qodef-grid-inner">
-                                  <div class="qodef-grid-masonry-sizer"></div>
-                                  <div
-                                    class="qodef-e qodef-grid-item qodef-item--portrait_small qodef-item-layout--simple"
-                                  >
-                                    <div class="qodef-e-inner">
-                                      <div class="qodef-e-media-image">
-                                        <img
-                                          loading="lazy"
-                                          loading="lazy"
-                                          decoding="async"
-                                          width="586"
-                                          height="879"
-                                          src="https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-1.jpg"
-                                          class="attachment-marity_core_image_size_portrait_small size-marity_core_image_size_portrait_small wp-post-image"
-                                          alt="w"
-                                          srcset="
-                                            https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-1.jpg         586w,
-                                            https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-1-300x450.jpg 300w,
-                                            https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-1-200x300.jpg 200w
-                                          "
-                                          sizes="(max-width: 586px) 100vw, 586px"
-                                        />
-                                        <svg
-                                          class="qodef-svg--blur-filter"
-                                          width="100"
-                                          height="100"
-                                          viewBox="0 0 100 100"
-                                        >
-                                          <filter
-                                            id="qodef-svg--blur-filter-3"
-                                            x="-30%"
-                                            y="-30%"
-                                            width="160%"
-                                            height="150%"
-                                          >
-                                            <feGaussianBlur
-                                              in="SourceGraphic"
-                                              stdDeviation="0"
-                                            ></feGaussianBlur>
-                                          </filter>
-                                        </svg>
-                                      </div>
-                                      <a
-                                        itemprop="url"
-                                        class="qodef-e-link"
-                                        href="#"
-                                        target="_self"
-                                      ></a>
-                                    </div>
-                                  </div>
-                                  <div
-                                    class="qodef-e qodef-grid-item qodef-item--rectangle qodef-item-layout--simple"
-                                  >
-                                    <div class="qodef-e-inner">
-                                      <div class="qodef-e-media-image">
-                                        <img
-                                          loading="lazy"
-                                          loading="lazy"
-                                          decoding="async"
-                                          width="586"
-                                          height="391"
-                                          src="https://marity.qodeinteractive.com/wp-content/uploads/2022/11/about-us-masonry-img.jpg"
-                                          class="attachment-marity_core_image_size_rectangle size-marity_core_image_size_rectangle wp-post-image"
-                                          alt="w"
-                                          srcset="
-                                            https://marity.qodeinteractive.com/wp-content/uploads/2022/11/about-us-masonry-img.jpg         586w,
-                                            https://marity.qodeinteractive.com/wp-content/uploads/2022/11/about-us-masonry-img-300x200.jpg 300w
-                                          "
-                                          sizes="(max-width: 586px) 100vw, 586px"
-                                        />
-                                        <svg
-                                          class="qodef-svg--blur-filter"
-                                          width="100"
-                                          height="100"
-                                          viewBox="0 0 100 100"
-                                        >
-                                          <filter
-                                            id="qodef-svg--blur-filter-4"
-                                            x="-30%"
-                                            y="-30%"
-                                            width="160%"
-                                            height="150%"
-                                          >
-                                            <feGaussianBlur
-                                              in="SourceGraphic"
-                                              stdDeviation="0"
-                                            ></feGaussianBlur>
-                                          </filter>
-                                        </svg>
-                                      </div>
-                                      <a
-                                        itemprop="url"
-                                        class="qodef-e-link"
-                                        href="#"
-                                        target="_self"
-                                      ></a>
-                                    </div>
-                                  </div>
-                                  <div
-                                    class="qodef-e qodef-grid-item qodef-item--portrait_small qodef-item-layout--simple"
-                                  >
-                                    <div class="qodef-e-inner">
-                                      <div class="qodef-e-media-image">
-                                        <img
-                                          loading="lazy"
-                                          loading="lazy"
-                                          decoding="async"
-                                          width="586"
-                                          height="879"
-                                          src="https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-3.jpg"
-                                          class="attachment-marity_core_image_size_portrait_small size-marity_core_image_size_portrait_small wp-post-image"
-                                          alt="w"
-                                          srcset="
-                                            https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-3.jpg         586w,
-                                            https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-3-300x450.jpg 300w,
-                                            https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-3-200x300.jpg 200w
-                                          "
-                                          sizes="(max-width: 586px) 100vw, 586px"
-                                        />
-                                        <svg
-                                          class="qodef-svg--blur-filter"
-                                          width="100"
-                                          height="100"
-                                          viewBox="0 0 100 100"
-                                        >
-                                          <filter
-                                            id="qodef-svg--blur-filter-5"
-                                            x="-30%"
-                                            y="-30%"
-                                            width="160%"
-                                            height="150%"
-                                          >
-                                            <feGaussianBlur
-                                              in="SourceGraphic"
-                                              stdDeviation="0"
-                                            ></feGaussianBlur>
-                                          </filter>
-                                        </svg>
-                                      </div>
-                                      <a
-                                        itemprop="url"
-                                        class="qodef-e-link"
-                                        href="#"
-                                        target="_self"
-                                      ></a>
-                                    </div>
-                                  </div>
-                                  <div
-                                    class="qodef-e qodef-grid-item qodef-item--portrait_small qodef-item-layout--simple"
-                                  >
-                                    <div class="qodef-e-inner">
-                                      <div class="qodef-e-media-image">
-                                        <img
-                                          loading="lazy"
-                                          loading="lazy"
-                                          decoding="async"
-                                          width="586"
-                                          height="879"
-                                          src="https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-5.jpg"
-                                          class="attachment-marity_core_image_size_portrait_small size-marity_core_image_size_portrait_small wp-post-image"
-                                          alt="w"
-                                          srcset="
-                                            https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-5.jpg         586w,
-                                            https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-5-300x450.jpg 300w,
-                                            https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-5-200x300.jpg 200w
-                                          "
-                                          sizes="(max-width: 586px) 100vw, 586px"
-                                        />
-                                        <svg
-                                          class="qodef-svg--blur-filter"
-                                          width="100"
-                                          height="100"
-                                          viewBox="0 0 100 100"
-                                        >
-                                          <filter
-                                            id="qodef-svg--blur-filter-6"
-                                            x="-30%"
-                                            y="-30%"
-                                            width="160%"
-                                            height="150%"
-                                          >
-                                            <feGaussianBlur
-                                              in="SourceGraphic"
-                                              stdDeviation="0"
-                                            ></feGaussianBlur>
-                                          </filter>
-                                        </svg>
-                                      </div>
-                                      <a
-                                        itemprop="url"
-                                        class="qodef-e-link"
-                                        href="#"
-                                        target="_self"
-                                      ></a>
-                                    </div>
-                                  </div>
-                                  <div
-                                    class="qodef-e qodef-grid-item qodef-item--rectangle qodef-item-layout--simple"
-                                  >
-                                    <div class="qodef-e-inner">
-                                      <div class="qodef-e-media-image">
-                                        <img
-                                          loading="lazy"
-                                          loading="lazy"
-                                          decoding="async"
-                                          width="586"
-                                          height="391"
-                                          src="https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-4.jpg"
-                                          class="attachment-marity_core_image_size_rectangle size-marity_core_image_size_rectangle wp-post-image"
-                                          alt="w"
-                                          srcset="
-                                            https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-4.jpg         586w,
-                                            https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-4-300x200.jpg 300w
-                                          "
-                                          sizes="(max-width: 586px) 100vw, 586px"
-                                        />
-                                        <svg
-                                          class="qodef-svg--blur-filter"
-                                          width="100"
-                                          height="100"
-                                          viewBox="0 0 100 100"
-                                        >
-                                          <filter
-                                            id="qodef-svg--blur-filter-7"
-                                            x="-30%"
-                                            y="-30%"
-                                            width="160%"
-                                            height="150%"
-                                          >
-                                            <feGaussianBlur
-                                              in="SourceGraphic"
-                                              stdDeviation="0"
-                                            ></feGaussianBlur>
-                                          </filter>
-                                        </svg>
-                                      </div>
-                                      <a
-                                        itemprop="url"
-                                        class="qodef-e-link"
-                                        href="#"
-                                        target="_self"
-                                      ></a>
-                                    </div>
-                                  </div>
-                                  <div
-                                    class="qodef-e qodef-grid-item qodef-item--rectangle qodef-item-layout--simple"
-                                  >
-                                    <div class="qodef-e-inner">
-                                      <div class="qodef-e-media-image">
-                                        <img
-                                          loading="lazy"
-                                          loading="lazy"
-                                          decoding="async"
-                                          width="586"
-                                          height="391"
-                                          src="https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-6.jpg"
-                                          class="attachment-marity_core_image_size_rectangle size-marity_core_image_size_rectangle wp-post-image"
-                                          alt="w"
-                                          srcset="
-                                            https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-6.jpg         586w,
-                                            https://marity.qodeinteractive.com/wp-content/uploads/2022/10/home-3-masonry-6-300x200.jpg 300w
-                                          "
-                                          sizes="(max-width: 586px) 100vw, 586px"
-                                        />
-                                        <svg
-                                          class="qodef-svg--blur-filter"
-                                          width="100"
-                                          height="100"
-                                          viewBox="0 0 100 100"
-                                        >
-                                          <filter
-                                            id="qodef-svg--blur-filter-8"
-                                            x="-30%"
-                                            y="-30%"
-                                            width="160%"
-                                            height="150%"
-                                          >
-                                            <feGaussianBlur
-                                              in="SourceGraphic"
-                                              stdDeviation="0"
-                                            ></feGaussianBlur>
-                                          </filter>
-                                        </svg>
-                                      </div>
-                                      <a
-                                        itemprop="url"
-                                        class="qodef-e-link"
-                                        href="#"
-                                        target="_self"
-                                      ></a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-                  <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-42c891d elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                    data-id="42c891d"
-                    data-element_type="section"
-                  >
-                    <div class="elementor-container elementor-column-gap-no">
-                      <div
-                        class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8f2727b"
-                        data-id="8f2727b"
-                        data-element_type="column"
-                      >
-                        <div
-                          class="elementor-widget-wrap elementor-element-populated"
-                        >
-                          <div
-                            class="elementor-element elementor-element-ecff724 elementor-widget elementor-widget-marity_core_section_title"
-                            data-id="ecff724"
-                            data-element_type="widget"
-                            data-widget_type="marity_core_section_title.default"
-                          >
-                            <div class="elementor-widget-container">
-                              <div
-                                class="qodef-shortcode qodef-m qodef-section-title qodef-show_supertitle--no qodef-alignment--left"
-                              >
-                                <h2 class="qodef-m-title">
-                                  Most recent jobs.<br />
-                                  Explore open jobs and find your perfect fit
-                                </h2>
-                                <div class="qodef-m-button">
-                                  <a
-                                    class="qodef-shortcode qodef-m qodef-button qodef-layout--filled qodef-size--small qodef-html--link"
-                                    href="#"
-                                    target="_self"
-                                    data-hover-color="#FFFFFF"
-                                    data-hover-background-color="#20313A"
-                                    data-hover-border-color="#20313A"
-                                    style="
-                                      color: #20313a;
-                                      background-color: #ffffff00;
-                                      border-color: #20313a;
-                                    "
-                                  >
-                                    <span class="qodef-btn-text"
-                                      >view more</span
-                                    ></a
-                                  >
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            class="elementor-element elementor-element-69db347 elementor-widget elementor-widget-marity_core_opportunities_list"
-                            data-id="69db347"
-                            data-element_type="widget"
-                            data-widget_type="marity_core_opportunities_list.default"
-                          >
-                            <div class="elementor-widget-container">
-                              <div
-                                class="qodef-shortcode qodef-m qodef-opportunities-list qodef-layout--list"
-                              >
-                                <div class="qodef-m-items">
-                                  <div class="qodef-item-holder">
-                                    <div class="qodef-m-item qodef-e">
-                                      <h5 class="qodef-e-title">
-                                        Specialty Representative, Migraine - San
-                                        Francisco/Peninsula, CA
-                                      </h5>
-                                    </div>
-                                    <div class="qodef-m-button">
-                                      <a
-                                        class="qodef-shortcode qodef-m qodef-button qodef-layout--textual qodef-html--link"
-                                        href="#"
-                                        target="_self"
-                                      >
-                                        <span class="qodef-btn-text"
-                                          >view more</span
-                                        >
-                                        <span class="qodef-btn-arrow"
-                                          ><svg
-                                            class="qodef-svg--button-arrow"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="11.9"
-                                            height="11.9"
-                                            viewBox="0 0 11.9 11.9"
-                                          >
-                                            <g>
-                                              <path d="M0 .5h11.372v11.354" />
-                                              <path
-                                                stroke-width=".75"
-                                                d="M11.3715.5.7587 11.1128"
-                                              />
-                                            </g>
-                                            <g>
-                                              <path d="M0 .5h11.372v11.354" />
-                                              <path
-                                                stroke-width=".75"
-                                                d="M11.3715.5.7587 11.1128"
-                                              />
-                                            </g></svg></span
-                                      ></a>
-                                    </div>
-                                  </div>
-                                  <div class="qodef-item-holder">
-                                    <div class="qodef-m-item qodef-e">
-                                      <h5 class="qodef-e-title">
-                                        Business HR Manager (Pipeline for future
-                                        talent) Illinois
-                                      </h5>
-                                    </div>
-                                    <div class="qodef-m-button">
-                                      <a
-                                        class="qodef-shortcode qodef-m qodef-button qodef-layout--textual qodef-html--link"
-                                        href="#"
-                                        target="_self"
-                                      >
-                                        <span class="qodef-btn-text"
-                                          >view more</span
-                                        >
-                                        <span class="qodef-btn-arrow"
-                                          ><svg
-                                            class="qodef-svg--button-arrow"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="11.9"
-                                            height="11.9"
-                                            viewBox="0 0 11.9 11.9"
-                                          >
-                                            <g>
-                                              <path d="M0 .5h11.372v11.354" />
-                                              <path
-                                                stroke-width=".75"
-                                                d="M11.3715.5.7587 11.1128"
-                                              />
-                                            </g>
-                                            <g>
-                                              <path d="M0 .5h11.372v11.354" />
-                                              <path
-                                                stroke-width=".75"
-                                                d="M11.3715.5.7587 11.1128"
-                                              />
-                                            </g></svg></span
-                                      ></a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-57c5424"
-                        data-id="57c5424"
-                        data-element_type="column"
-                        data-settings='{"background_background":"classic"}'
-                      >
-                        <div
-                          class="elementor-widget-wrap elementor-element-populated"
-                        >
-                          <div
-                            class="elementor-element elementor-element-d692632 elementor-widget__width-auto elementor-widget elementor-widget-marity_core_single_image"
-                            data-id="d692632"
-                            data-element_type="widget"
-                            data-widget_type="marity_core_single_image.default"
-                          >
-                            <div class="elementor-widget-container">
-                              <div
-                                class="qodef-shortcode qodef-m qodef-single-image qodef-layout--default qodef--morph-mask"
-                                style="
-                                  --qodef--morph-shape-position-x: 3%;
-                                  --qodef--morph-shape-scale-x: 1.1;
-                                "
-                              >
+
                                 <div
-                                  class="qodef-svg-morph-holder qodef-type-2"
+                                  class="qodef-tabs-content qodef-tabs-with-images qodef-tabs-image-one qodef-tabs-image-two"
+                                  id="qodef-tab-scotland-202"
                                 >
-                                  <svg
-                                    class="qodef-svg--clip-morph-shape-2"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="910"
-                                    height="910"
-                                    viewBox="0 0 910 910"
-                                  >
-                                    <clipPath
-                                      id="marity-9-827"
-                                      clipPathUnits="objectBoundingBox"
+                                  <div class="qodef-tabs-content-inner">
+                                    <h5 style="margin-bottom: 15px">
+                                      Edinburgh, General Office
+                                    </h5>
+                                    <div style="margin-bottom: 10px">
+                                      <a
+                                        href="https://www.google.com/maps/place/Munkedamsveien+21,+0250+Oslo,+Norway/@59.9131523,10.7256358,17z/data=!3m1!4b1!4m5!3m4!1s0x46416e8087e7aacd:0xbc66dc5986b521ef!8m2!3d59.9131496!4d10.7278245"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >Munkengveien 21 175 <br />
+                                        0376 Oslo</a
+                                      >
+                                    </div>
+                                    <div>
+                                      <a href="tel:012345678">01-234 56 78</a>
+                                    </div>
+                                    <h5
+                                      style="
+                                        margin-bottom: 15px;
+                                        margin-top: 40px;
+                                      "
                                     >
-                                      <path
-                                        d="M566.7 248.3C503 210 411.2 140.9 308.3 50.3 176.7-65.6-40 26.8 6.4 244.5s72.7 232.3 47 375.6-40.2 235.5 57.9 281.5S337.7 788 429.6 824.5c132.3 52.4 264.3 131 409.1-64 63.4-85.5 98.6-185 45.2-284.2-72.2-134-253.3-189.7-317.2-228Z"
-                                      />
-                                      <path
-                                        d="M556 258c-66.2-33.8-139.2-96.4-242-186.1C182.7-43-12 17.8 34.4 233.2s56.6 252.2 31 394-44 213.9 54 259.4S341.1 771.4 433 807.4c132.2 52 265 156.5 409.6-36.6 63.4-84.5 89.4-244.2 36-342.5C806.6 295.6 636 299 556 258Z"
-                                      />
-                                      <path
-                                        d="M567.2 255.4c-66.2-33.5-118.4-105-221.4-193.7C219-43.3-39.5-13.5 7.1 199.4s68.8 261.7 43.2 401.9-53.1 254.4 45 299.4S363 763.3 455 799c132.4 51.4 250.8 180 395.7-10.8 63.5-83.6 75.6-296.2 22-393.4-72.1-131-225.3-98.8-305.5-139.3Z"
-                                      />
-                                    </clipPath>
-                                  </svg>
-                                </div>
-                                <div class="qodef-m-image">
-                                  <img
-                                    loading="lazy"
-                                    loading="lazy"
-                                    decoding="async"
-                                    width="775"
-                                    height="900"
-                                    src="https://marity.qodeinteractive.com/wp-content/uploads/2022/12/home-3-rev-img-4-new.jpg"
-                                    class="attachment-full size-full"
-                                    alt=""
-                                    srcset="
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/12/home-3-rev-img-4-new.jpg         775w,
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/12/home-3-rev-img-4-new-300x348.jpg 300w,
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/12/home-3-rev-img-4-new-600x697.jpg 600w,
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/12/home-3-rev-img-4-new-258x300.jpg 258w,
-                                      https://marity.qodeinteractive.com/wp-content/uploads/2022/12/home-3-rev-img-4-new-768x892.jpg 768w
-                                    "
-                                    sizes="(max-width: 775px) 100vw, 775px"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-                  <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-12f657a elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                    data-id="12f657a"
-                    data-element_type="section"
-                  >
-                    <div
-                      class="elementor-container elementor-column-gap-default"
-                    >
-                      <div
-                        class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b7f1146"
-                        data-id="b7f1146"
-                        data-element_type="column"
-                      >
-                        <div
-                          class="elementor-widget-wrap elementor-element-populated"
-                        >
-                          <div
-                            class="elementor-element elementor-element-442677c elementor-widget elementor-widget-marity_core_process_info_tabs"
-                            data-id="442677c"
-                            data-element_type="widget"
-                            data-widget_type="marity_core_process_info_tabs.default"
-                          >
-                            <div class="elementor-widget-container">
-                              <div
-                                class="qodef-shortcode qodef-m qodef-process-info-tabs qodef-layout--horizontal qodef-appearance--morph qodef-hide-borders--no qodef-count-elements--yes qodef--has-appear qodef-enable-min-height--yes qodef--drag-cursor qodef-items--3 qodef-no-of-items--odd qodef-grid qodef-layout--columns qodef-col-num--3 qodef-gutter--tiny qodef-responsive--custom qodef-col-num--1440--3 qodef-col-num--1366--3 qodef-col-num--1024--3 qodef-col-num--768--1 qodef-col-num--680--1 qodef-col-num--480--1"
-                              >
-                                <div
-                                  class="qodef-grid-inner qodef-process-info-tabs-holder"
-                                >
-                                  <div
-                                    class="qodef-grid-item qodef-process-info-tabs-item-holder"
-                                  >
-                                    <div
-                                      class="qodef-process-info-tabs-item qodef--has-appear"
-                                      style="background-color: #f4f4f4"
-                                    >
-                                      <div
-                                        id="qodef-svg-morph-8130"
-                                        class="qodef-svg-morph-holder qodef-type-1"
-                                        style="color: #efefef"
+                                      Glasgow Office
+                                    </h5>
+                                    <div style="margin-bottom: 10px">
+                                      <a
+                                        href="https://www.google.com/maps/place/Munkedamsveien+21,+0250+Oslo,+Norway/@59.9131523,10.7256358,17z/data=!3m1!4b1!4m5!3m4!1s0x46416e8087e7aacd:0xbc66dc5986b521ef!8m2!3d59.9131496!4d10.7278245"
+                                        target="_blank"
+                                        rel="noopener"
+                                        >Munkengveien 21 175 <br />
+                                        0376 Oslo</a
                                       >
-                                        <svg
-                                          class="qodef-svg--morph-shape-1"
-                                          xmlns="http://www.w3.org/2000/svg"
-                                          width="684.0455"
-                                          height="438.6857"
-                                          viewBox="0 0 684.0455 438.6857"
-                                        >
-                                          <path
-                                            fill="currentColor"
-                                            d="M 676 170.7 C 656.8 126.9 593.6 102.2 550.3 119.4 C 461 154.7 470.3 105.7 458.7 66.7 C 453.7 -0.4 396.1 -8.5 357 8.6 C 335.2 18.1 325.2 53 320 74 L 319.9 73.9 Q 319.8 74.3 319.7 74.8 A 54.7 54.7 0 0 1 250.3 113.7 C 232.6 108.1 216 84.6 175.1 82.9 C 79.3 79.1 -0 168 -0 254.6 S 83.1 439.6 179 439.6 C 259.6 439.6 288.3 341.6 320 297.6 C 354 250.5 431.4 268.9 473.7 308.6 C 505.4 339.5 563 368.2 607.2 348.9 C 664.9 323.7 698.6 225.7 676 172.9 Z"
-                                          />
-                                          <path
-                                            fill="currentColor"
-                                            d="M 690.9 102.3 C 671.7 58.5 606.9 20.1 569.1 47.4 C 488.1 106.1 444.3 97.4 432.7 58.4 C 427.7 -8.7 384.7 -4.8 345.6 12.3 C 323.8 21.8 325.2 53 320 74 C 320 74 319.9 73.9 319.9 73.9 C 319.8 74.2 319.8 74.5 319.7 74.8 C 316 89.4 327.6 123.3 275.6 146 C 261.8 152 217.2 119.8 210.8 106.3 C 178 37.5 148 44.3 107.1 42.6 C 11.3 38.8 -8 199 -8 285.6 C -8 372.2 83.1 439.6 179 439.6 C 259.6 439.6 277.3 354.6 291.8 302.4 C 306.8 248.2 414.6 224.8 436.4 278.6 C 465.2 350 531.8 368 575.8 348 C 638 319.7 717.3 274.4 692.9 104.1 C 692.9 103.4 690.9 103 690.9 102.3"
-                                          />
-                                        </svg>
-                                      </div>
-                                      <div
-                                        class="qodef-process-info-tabs-content"
-                                      >
-                                        <h4
-                                          itemprop="name"
-                                          class="qodef-e-title entry-title"
-                                        >
-                                          Internships
-                                        </h4>
-                                        <p class="qodef-e-text">
-                                          Et harum quidem rerum facilis est et
-                                          expedita mea voluptas fuga quod mea.
-                                        </p>
-                                      </div>
-                                      <div
-                                        class="qodef-process-info-tabs-content-bottom"
-                                      >
-                                        <div class="qodef-m-button">
-                                          <a
-                                            class="qodef-shortcode qodef-m qodef-button qodef-layout--textual qodef-html--link"
-                                            href="#"
-                                            target="_self"
-                                          >
-                                            <span class="qodef-btn-text"
-                                              >read more</span
-                                            >
-                                            <span class="qodef-btn-arrow"
-                                              ><svg
-                                                class="qodef-svg--button-arrow"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                width="11.9"
-                                                height="11.9"
-                                                viewBox="0 0 11.9 11.9"
-                                              >
-                                                <g>
-                                                  <path
-                                                    d="M0 .5h11.372v11.354"
-                                                  />
-                                                  <path
-                                                    stroke-width=".75"
-                                                    d="M11.3715.5.7587 11.1128"
-                                                  />
-                                                </g>
-                                                <g>
-                                                  <path
-                                                    d="M0 .5h11.372v11.354"
-                                                  />
-                                                  <path
-                                                    stroke-width=".75"
-                                                    d="M11.3715.5.7587 11.1128"
-                                                  />
-                                                </g></svg></span
-                                          ></a>
-                                        </div>
-                                      </div>
+                                    </div>
+                                    <div>
+                                      <a href="tel:012345678">01-234 56 78</a>
                                     </div>
                                   </div>
-                                  <div
-                                    class="qodef-grid-item qodef-process-info-tabs-item-holder"
-                                  >
-                                    <div
-                                      class="qodef-process-info-tabs-item qodef--has-appear"
-                                      style="background-color: #f0f8fd"
-                                    >
-                                      <div
-                                        id="qodef-svg-morph-8208"
-                                        class="qodef-svg-morph-holder qodef-type-2"
-                                        style="color: #e6f1f8"
-                                      >
-                                        <svg
-                                          class="qodef-svg--morph-shape-2"
-                                          xmlns="http://www.w3.org/2000/svg"
-                                          width="510.1197"
-                                          height="445.5398"
-                                          viewBox="0 0 510.1197 445.5398"
-                                        >
-                                          <path
-                                            fill="currentColor"
-                                            d="M323.62,87S227.4807,76.2858,173.63,26.2075-22.8027-2.925,3.12,107.6667,29.9139,222.1808,15.62,295,10.0644,416.3612,64.7572,439.7316,193.04,407.1581,244.2863,425.6667c73.7776,26.6458,145.3425,41.4413,226.0793-57.6634,35.3489-43.3911,47.2463-90.1121,25.1763-144.3886C466.2863,151.6667,424.953,105,323.62,87Z"
-                                          />
-                                          <path
-                                            fill="currentColor"
-                                            d="M314.0439,104.78S227.4807,76.2858,173.63,26.2075-19.6211-4.7466,6.3013,105.845,46.8108,223.8882,32.5166,296.7074,10.0644,416.3612,64.7572,439.7316s126.2646-57.7086,177.511-39.2c73.7776,26.6458,147.3606,66.5764,228.0975-32.5284,35.3489-43.3911,54.9722-93.9383,25.1763-144.3886C455.336,155.5379,387.4925,123.518,314.0439,104.78Z"
-                                          /></svg
-                                        >;
-                                      </div>
-                                      <div
-                                        class="qodef-process-info-tabs-content"
-                                      >
-                                        <h4
-                                          itemprop="name"
-                                          class="qodef-e-title entry-title"
-                                        >
-                                          Careers
-                                        </h4>
-                                        <p class="qodef-e-text">
-                                          Et harum quidem rerum facilis est et
-                                          expedita mea voluptas fuga quod mea.
-                                        </p>
-                                      </div>
-                                      <div
-                                        class="qodef-process-info-tabs-content-bottom"
-                                      >
-                                        <div class="qodef-m-button">
-                                          <a
-                                            class="qodef-shortcode qodef-m qodef-button qodef-layout--textual qodef-html--link"
-                                            href="#"
-                                            target="_self"
-                                          >
-                                            <span class="qodef-btn-text"
-                                              >view open positions</span
-                                            >
-                                            <span class="qodef-btn-arrow"
-                                              ><svg
-                                                class="qodef-svg--button-arrow"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                width="11.9"
-                                                height="11.9"
-                                                viewBox="0 0 11.9 11.9"
-                                              >
-                                                <g>
-                                                  <path
-                                                    d="M0 .5h11.372v11.354"
-                                                  />
-                                                  <path
-                                                    stroke-width=".75"
-                                                    d="M11.3715.5.7587 11.1128"
-                                                  />
-                                                </g>
-                                                <g>
-                                                  <path
-                                                    d="M0 .5h11.372v11.354"
-                                                  />
-                                                  <path
-                                                    stroke-width=".75"
-                                                    d="M11.3715.5.7587 11.1128"
-                                                  />
-                                                </g></svg></span
-                                          ></a>
-                                        </div>
-                                      </div>
+                                  <div class="qodef-tabs-content-images-inner">
+                                    <div class="qodef-image-holder qodef-one">
+                                      <img
+                                        loading="lazy"
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="900"
+                                        height="638"
+                                        src="https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-5.jpg"
+                                        class="qodef-tab-image-one"
+                                        alt="w"
+                                        srcset="
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-5.jpg         900w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-5-300x213.jpg 300w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-5-600x425.jpg 600w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-5-768x544.jpg 768w
+                                        "
+                                        sizes="(max-width: 900px) 100vw, 900px"
+                                      />
                                     </div>
-                                  </div>
-                                  <div
-                                    class="qodef-grid-item qodef-process-info-tabs-item-holder"
-                                  >
-                                    <div
-                                      class="qodef-process-info-tabs-item qodef--has-appear"
-                                      style="background-color: #f3f3f3"
-                                    >
-                                      <div
-                                        id="qodef-svg-morph-9570"
-                                        class="qodef-svg-morph-holder qodef-type-1"
-                                        style="color: #efefef"
-                                      >
-                                        <svg
-                                          class="qodef-svg--morph-shape-1"
-                                          xmlns="http://www.w3.org/2000/svg"
-                                          width="684.0455"
-                                          height="438.6857"
-                                          viewBox="0 0 684.0455 438.6857"
-                                        >
-                                          <path
-                                            fill="currentColor"
-                                            d="M 676 170.7 C 656.8 126.9 593.6 102.2 550.3 119.4 C 461 154.7 470.3 105.7 458.7 66.7 C 453.7 -0.4 396.1 -8.5 357 8.6 C 335.2 18.1 325.2 53 320 74 L 319.9 73.9 Q 319.8 74.3 319.7 74.8 A 54.7 54.7 0 0 1 250.3 113.7 C 232.6 108.1 216 84.6 175.1 82.9 C 79.3 79.1 -0 168 -0 254.6 S 83.1 439.6 179 439.6 C 259.6 439.6 288.3 341.6 320 297.6 C 354 250.5 431.4 268.9 473.7 308.6 C 505.4 339.5 563 368.2 607.2 348.9 C 664.9 323.7 698.6 225.7 676 172.9 Z"
-                                          />
-                                          <path
-                                            fill="currentColor"
-                                            d="M 690.9 102.3 C 671.7 58.5 606.9 20.1 569.1 47.4 C 488.1 106.1 444.3 97.4 432.7 58.4 C 427.7 -8.7 384.7 -4.8 345.6 12.3 C 323.8 21.8 325.2 53 320 74 C 320 74 319.9 73.9 319.9 73.9 C 319.8 74.2 319.8 74.5 319.7 74.8 C 316 89.4 327.6 123.3 275.6 146 C 261.8 152 217.2 119.8 210.8 106.3 C 178 37.5 148 44.3 107.1 42.6 C 11.3 38.8 -8 199 -8 285.6 C -8 372.2 83.1 439.6 179 439.6 C 259.6 439.6 277.3 354.6 291.8 302.4 C 306.8 248.2 414.6 224.8 436.4 278.6 C 465.2 350 531.8 368 575.8 348 C 638 319.7 717.3 274.4 692.9 104.1 C 692.9 103.4 690.9 103 690.9 102.3"
-                                          />
-                                        </svg>
-                                      </div>
-                                      <div
-                                        class="qodef-process-info-tabs-content"
-                                      >
-                                        <h4
-                                          itemprop="name"
-                                          class="qodef-e-title entry-title"
-                                        >
-                                          Investitors
-                                        </h4>
-                                        <p class="qodef-e-text">
-                                          Et harum quidem rerum facilis est et
-                                          expedita mea voluptas fuga quod mea.
-                                        </p>
-                                      </div>
-                                      <div
-                                        class="qodef-process-info-tabs-content-bottom"
-                                      >
-                                        <div class="qodef-m-button">
-                                          <a
-                                            class="qodef-shortcode qodef-m qodef-button qodef-layout--textual qodef-html--link"
-                                            href="#"
-                                            target="_self"
-                                          >
-                                            <span class="qodef-btn-text"
-                                              >grow with us</span
-                                            >
-                                            <span class="qodef-btn-arrow"
-                                              ><svg
-                                                class="qodef-svg--button-arrow"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                width="11.9"
-                                                height="11.9"
-                                                viewBox="0 0 11.9 11.9"
-                                              >
-                                                <g>
-                                                  <path
-                                                    d="M0 .5h11.372v11.354"
-                                                  />
-                                                  <path
-                                                    stroke-width=".75"
-                                                    d="M11.3715.5.7587 11.1128"
-                                                  />
-                                                </g>
-                                                <g>
-                                                  <path
-                                                    d="M0 .5h11.372v11.354"
-                                                  />
-                                                  <path
-                                                    stroke-width=".75"
-                                                    d="M11.3715.5.7587 11.1128"
-                                                  />
-                                                </g></svg></span
-                                          ></a>
-                                        </div>
-                                      </div>
+
+                                    <div class="qodef-image-holder qodef-two">
+                                      <img
+                                        loading="lazy"
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="900"
+                                        height="638"
+                                        src="https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-6.jpg"
+                                        class="qodef-tab-image-two"
+                                        alt="w"
+                                        srcset="
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-6.jpg         900w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-6-300x213.jpg 300w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-6-600x425.jpg 600w,
+                                          https://marity.qodeinteractive.com/wp-content/uploads/2022/11/get-in-touch-tabs-img-6-768x544.jpg 768w
+                                        "
+                                        sizes="(max-width: 900px) 100vw, 900px"
+                                      />
                                     </div>
                                   </div>
                                 </div>
@@ -3059,8 +2494,8 @@ About Us
             </div>
           </main>
         </div> -->
-        <!-- close #qodef-page-inner div from header.php -->
-     <!-- </div> -->
+      <!-- close #qodef-page-inner div from header.php -->
+      <!-- </div> -->
       <!-- close #qodef-page-outer div from header.php -->
       <footer id="qodef-page-footer" role="contentinfo">
         <div id="qodef-page-footer-top-area">
@@ -3087,7 +2522,7 @@ About Us
 
                     <div
                       class="wpcf7 no-js"
-                      id="wpcf7-f3534-o1"
+                      id="wpcf7-f3534-o2"
                       lang="en-US"
                       dir="ltr"
                       data-wpcf7-id="3534"
@@ -3101,7 +2536,7 @@ About Us
                         <ul></ul>
                       </div>
                       <form
-                        action="/about-us/#wpcf7-f3534-o1"
+                        action="/get-in-touch/#wpcf7-f3534-o2"
                         method="post"
                         class="wpcf7-form init demo"
                         aria-label="Contact form"
@@ -3123,7 +2558,7 @@ About Us
                           <input
                             type="hidden"
                             name="_wpcf7_unit_tag"
-                            value="wpcf7-f3534-o1"
+                            value="wpcf7-f3534-o2"
                           />
                           <input
                             type="hidden"
@@ -3609,6 +3044,10 @@ About Us
     </div>
     <!-- close #qodef-page-wrapper div from header.php -->
 
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
     <script>
       window.RS_MODULES = window.RS_MODULES || {};
       window.RS_MODULES.modules = window.RS_MODULES.modules || {};
@@ -4104,18 +3543,8 @@ About Us
     </script>
     <script
       type="text/javascript"
-      src="https://marity.qodeinteractive.com/wp-content/plugins/marity-core/assets/plugins/magnific-popup/jquery.magnific-popup.min.js?ver=6.8.3"
-      id="jquery-magnific-popup-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://marity.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/isotope.pkgd.min.js?ver=3.0.6"
-      id="isotope-js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://marity.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/packery-mode.pkgd.min.js?ver=2.0.1"
-      id="packery-js"
+      src="https://marity.qodeinteractive.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.13.3"
+      id="jquery-ui-tabs-js"
     ></script>
     <script
       type="text/javascript"
@@ -4240,8 +3669,8 @@ About Us
           lightbox_description_src: "description",
         },
         post: {
-          id: 4512,
-          title: "About%20Us%20%E2%80%93%20Marity",
+          id: 5898,
+          title: "Get%20In%20Touch%20%E2%80%93%20Marity",
           excerpt: "",
           featuredImage: false,
         },
